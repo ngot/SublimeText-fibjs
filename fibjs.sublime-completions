@@ -1,0 +1,3406 @@
+{
+	"scope": "source.js - variable.other.js",
+	"completions": [{
+		"trigger": "assert"
+	}, {
+		"trigger": "assert.ok(Value actual, String msg = \"\");",
+		"contents": "assert.ok(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notOk(Value actual, String msg = \"\");",
+		"contents": "assert.notOk(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.equal(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.equal(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notEqual(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.notEqual(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.strictEqual(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.strictEqual(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notStrictEqual(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.notStrictEqual(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.deepEqual(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.deepEqual(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notDeepEqual(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.notDeepEqual(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.closeTo(Value actual, Value expected, Value delta, String msg = \"\");",
+		"contents": "assert.closeTo(${1:Value actual}, ${2:Value expected}, ${3:Value delta}, ${4:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notCloseTo(Value actual, Value expected, Value delta, String msg = \"\");",
+		"contents": "assert.notCloseTo(${1:Value actual}, ${2:Value expected}, ${3:Value delta}, ${4:String msg = \"\"});"
+	}, {
+		"trigger": "assert.lessThan(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.lessThan(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notLessThan(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.notLessThan(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.greaterThan(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.greaterThan(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notGreaterThan(Value actual, Value expected, String msg = \"\");",
+		"contents": "assert.notGreaterThan(${1:Value actual}, ${2:Value expected}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.exist(Value actual, String msg = \"\");",
+		"contents": "assert.exist(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notExist(Value actual, String msg = \"\");",
+		"contents": "assert.notExist(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isTrue(Value actual, String msg = \"\");",
+		"contents": "assert.isTrue(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotTrue(Value actual, String msg = \"\");",
+		"contents": "assert.isNotTrue(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isFalse(Value actual, String msg = \"\");",
+		"contents": "assert.isFalse(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotFalse(Value actual, String msg = \"\");",
+		"contents": "assert.isNotFalse(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNull(Value actual, String msg = \"\");",
+		"contents": "assert.isNull(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotNull(Value actual, String msg = \"\");",
+		"contents": "assert.isNotNull(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isUndefined(Value actual, String msg = \"\");",
+		"contents": "assert.isUndefined(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isDefined(Value actual, String msg = \"\");",
+		"contents": "assert.isDefined(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isFunction(Value actual, String msg = \"\");",
+		"contents": "assert.isFunction(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotFunction(Value actual, String msg = \"\");",
+		"contents": "assert.isNotFunction(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isObject(Value actual, String msg = \"\");",
+		"contents": "assert.isObject(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotObject(Value actual, String msg = \"\");",
+		"contents": "assert.isNotObject(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isArray(Value actual, String msg = \"\");",
+		"contents": "assert.isArray(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotArray(Value actual, String msg = \"\");",
+		"contents": "assert.isNotArray(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isString(Value actual, String msg = \"\");",
+		"contents": "assert.isString(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotString(Value actual, String msg = \"\");",
+		"contents": "assert.isNotString(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNumber(Value actual, String msg = \"\");",
+		"contents": "assert.isNumber(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotNumber(Value actual, String msg = \"\");",
+		"contents": "assert.isNotNumber(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isBoolean(Value actual, String msg = \"\");",
+		"contents": "assert.isBoolean(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.isNotBoolean(Value actual, String msg = \"\");",
+		"contents": "assert.isNotBoolean(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.typeOf(Value actual, String type, String msg = \"\");",
+		"contents": "assert.typeOf(${1:Value actual}, ${2:String type}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notTypeOf(Value actual, String type, String msg = \"\");",
+		"contents": "assert.notTypeOf(${1:Value actual}, ${2:String type}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.property(Value object, Value prop, String msg = \"\");",
+		"contents": "assert.property(${1:Value object}, ${2:Value prop}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notProperty(Value object, Value prop, String msg = \"\");",
+		"contents": "assert.notProperty(${1:Value object}, ${2:Value prop}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.deepProperty(Value object, Value prop, String msg = \"\");",
+		"contents": "assert.deepProperty(${1:Value object}, ${2:Value prop}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.notDeepProperty(Value object, Value prop, String msg = \"\");",
+		"contents": "assert.notDeepProperty(${1:Value object}, ${2:Value prop}, ${3:String msg = \"\"});"
+	}, {
+		"trigger": "assert.propertyVal(Value object, Value prop, Value value, String msg = \"\");",
+		"contents": "assert.propertyVal(${1:Value object}, ${2:Value prop}, ${3:Value value}, ${4:String msg = \"\"});"
+	}, {
+		"trigger": "assert.propertyNotVal(Value object, Value prop, Value value, String msg = \"\");",
+		"contents": "assert.propertyNotVal(${1:Value object}, ${2:Value prop}, ${3:Value value}, ${4:String msg = \"\"});"
+	}, {
+		"trigger": "assert.deepPropertyVal(Value object, Value prop, Value value, String msg = \"\");",
+		"contents": "assert.deepPropertyVal(${1:Value object}, ${2:Value prop}, ${3:Value value}, ${4:String msg = \"\"});"
+	}, {
+		"trigger": "assert.deepPropertyNotVal(Value object, Value prop, Value value, String msg = \"\");",
+		"contents": "assert.deepPropertyNotVal(${1:Value object}, ${2:Value prop}, ${3:Value value}, ${4:String msg = \"\"});"
+	}, {
+		"trigger": "assert.throws(Function block, String msg = \"\");",
+		"contents": "assert.throws(${1:Function block}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "assert.doesNotThrow(Function block, String msg = \"\");",
+		"contents": "assert.doesNotThrow(${1:Function block}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "AsyncWait"
+	}, {
+		"trigger": "AsyncWait.end();"
+	}, {
+		"trigger": "BlockQueue"
+	}, {
+		"trigger": "BlockQueue.BlockQueue(Integer size);",
+		"contents": "BlockQueue.BlockQueue(${1:Integer size});"
+	}, {
+		"trigger": "BlockQueue.put(Value e);",
+		"contents": "BlockQueue.put(${1:Value e});"
+	}, {
+		"trigger": "BlockQueue.take();"
+	}, {
+		"trigger": "Buffer"
+	}, {
+		"trigger": "Buffer.Buffer(Array datas);",
+		"contents": "Buffer.Buffer(${1:Array datas});"
+	}, {
+		"trigger": "Buffer.Buffer(String str, String codec = \"utf8\");",
+		"contents": "Buffer.Buffer(${1:String str}, ${2:String codec = \"utf8\"});"
+	}, {
+		"trigger": "Buffer.Buffer(Integer size = 0);",
+		"contents": "Buffer.Buffer(${1:Integer size = 0});"
+	}, {
+		"trigger": "Buffer.operator"
+	}, {
+		"trigger": "Buffer.length"
+	}, {
+		"trigger": "Buffer.resize(Integer sz);",
+		"contents": "Buffer.resize(${1:Integer sz});"
+	}, {
+		"trigger": "Buffer.write(Array datas);",
+		"contents": "Buffer.write(${1:Array datas});"
+	}, {
+		"trigger": "Buffer.write(Buffer data);",
+		"contents": "Buffer.write(${1:Buffer data});"
+	}, {
+		"trigger": "Buffer.write(String str, String codec = \"utf8\");",
+		"contents": "Buffer.write(${1:String str}, ${2:String codec = \"utf8\"});"
+	}, {
+		"trigger": "Buffer.readUInt8(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readUInt8(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readUInt16LE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readUInt16LE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readUInt16BE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readUInt16BE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readUInt32LE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readUInt32LE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readUInt32BE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readUInt32BE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readInt8(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readInt8(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readInt16LE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readInt16LE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readInt16BE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readInt16BE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readInt32LE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readInt32LE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readInt32BE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readInt32BE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readInt64LE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readInt64LE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readInt64BE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readInt64BE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readFloatLE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readFloatLE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readFloatBE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readFloatBE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readDoubleLE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readDoubleLE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.readDoubleBE(Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.readDoubleBE(${1:Integer offset}, ${2:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeUInt8(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeUInt8(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeUInt16LE(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeUInt16LE(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeUInt16BE(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeUInt16BE(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeUInt32LE(Long value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeUInt32LE(${1:Long value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeUInt32BE(Long value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeUInt32BE(${1:Long value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeInt8(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeInt8(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeInt16LE(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeInt16LE(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeInt16BE(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeInt16BE(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeInt32LE(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeInt32LE(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeInt32BE(Integer value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeInt32BE(${1:Integer value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeInt64LE(Int64 value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeInt64LE(${1:Int64 value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeInt64BE(Int64 value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeInt64BE(${1:Int64 value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeFloatLE(Number value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeFloatLE(${1:Number value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeFloatBE(Number value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeFloatBE(${1:Number value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeDoubleLE(Number value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeDoubleLE(${1:Number value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.writeDoubleBE(Number value, Integer offset, Boolean noAssert = false);",
+		"contents": "Buffer.writeDoubleBE(${1:Number value}, ${2:Integer offset}, ${3:Boolean noAssert = false});"
+	}, {
+		"trigger": "Buffer.slice(Integer start = 0, Integer end = -1);",
+		"contents": "Buffer.slice(${1:Integer start = 0}, ${2:Integer end = -1});"
+	}, {
+		"trigger": "Buffer.hex();"
+	}, {
+		"trigger": "Buffer.base64();"
+	}, {
+		"trigger": "Buffer.toString(String codec);",
+		"contents": "Buffer.toString(${1:String codec});"
+	}, {
+		"trigger": "Buffer.toString();"
+	}, {
+		"trigger": "BufferedStream"
+	}, {
+		"trigger": "BufferedStream.BufferedStream(Stream stm);",
+		"contents": "BufferedStream.BufferedStream(${1:Stream stm});"
+	}, {
+		"trigger": "BufferedStream.readText(Integer size);",
+		"contents": "BufferedStream.readText(${1:Integer size});"
+	}, {
+		"trigger": "BufferedStream.readLine(Integer maxlen = -1);",
+		"contents": "BufferedStream.readLine(${1:Integer maxlen = -1});"
+	}, {
+		"trigger": "BufferedStream.readLines(Integer maxlines = -1);",
+		"contents": "BufferedStream.readLines(${1:Integer maxlines = -1});"
+	}, {
+		"trigger": "BufferedStream.readUntil(String mk, Integer maxlen = -1);",
+		"contents": "BufferedStream.readUntil(${1:String mk}, ${2:Integer maxlen = -1});"
+	}, {
+		"trigger": "BufferedStream.readPacket(Integer limit = -1);",
+		"contents": "BufferedStream.readPacket(${1:Integer limit = -1});"
+	}, {
+		"trigger": "BufferedStream.writeText(String txt);",
+		"contents": "BufferedStream.writeText(${1:String txt});"
+	}, {
+		"trigger": "BufferedStream.writeLine(String txt);",
+		"contents": "BufferedStream.writeLine(${1:String txt});"
+	}, {
+		"trigger": "BufferedStream.writePacket(Buffer data);",
+		"contents": "BufferedStream.writePacket(${1:Buffer data});"
+	}, {
+		"trigger": "BufferedStream.stream"
+	}, {
+		"trigger": "BufferedStream.charset"
+	}, {
+		"trigger": "BufferedStream.EOL"
+	}, {
+		"trigger": "Chain"
+	}, {
+		"trigger": "Chain.Chain(Array hdlrs);",
+		"contents": "Chain.Chain(${1:Array hdlrs});"
+	}, {
+		"trigger": "Chain.append(Array hdlrs);",
+		"contents": "Chain.append(${1:Array hdlrs});"
+	}, {
+		"trigger": "Chain.append(Value hdlr);",
+		"contents": "Chain.append(${1:Value hdlr});"
+	}, {
+		"trigger": "Cipher"
+	}, {
+		"trigger": "Cipher.Cipher(Integer provider, Buffer key);",
+		"contents": "Cipher.Cipher(${1:Integer provider}, ${2:Buffer key});"
+	}, {
+		"trigger": "Cipher.Cipher(Integer provider, Integer mode, Buffer key);",
+		"contents": "Cipher.Cipher(${1:Integer provider}, ${2:Integer mode}, ${3:Buffer key});"
+	}, {
+		"trigger": "Cipher.Cipher(Integer provider, Integer mode, Buffer key, Buffer iv);",
+		"contents": "Cipher.Cipher(${1:Integer provider}, ${2:Integer mode}, ${3:Buffer key}, ${4:Buffer iv});"
+	}, {
+		"trigger": "Cipher.name"
+	}, {
+		"trigger": "Cipher.keySize"
+	}, {
+		"trigger": "Cipher.ivSize"
+	}, {
+		"trigger": "Cipher.blockSize"
+	}, {
+		"trigger": "Cipher.paddingMode(Integer mode);",
+		"contents": "Cipher.paddingMode(${1:Integer mode});"
+	}, {
+		"trigger": "Cipher.encrypt(Buffer data);",
+		"contents": "Cipher.encrypt(${1:Buffer data});"
+	}, {
+		"trigger": "Cipher.decrypt(Buffer data);",
+		"contents": "Cipher.decrypt(${1:Buffer data});"
+	}, {
+		"trigger": "collection"
+	}, {
+		"trigger": "new collection.Map();"
+	}, {
+		"trigger": "new collection.List();"
+	}, {
+		"trigger": "new collection.Queue();"
+	}, {
+		"trigger": "Condition"
+	}, {
+		"trigger": "Condition.Condition();"
+	}, {
+		"trigger": "Condition.Condition(Lock lock);",
+		"contents": "Condition.Condition(${1:Lock lock});"
+	}, {
+		"trigger": "Condition.wait();"
+	}, {
+		"trigger": "Condition.notify();"
+	}, {
+		"trigger": "Condition.notifyAll();"
+	}, {
+		"trigger": "console"
+	}, {
+		"trigger": "console.FATAL"
+	}, {
+		"trigger": "console.ALERT"
+	}, {
+		"trigger": "console.CRIT"
+	}, {
+		"trigger": "console.ERROR"
+	}, {
+		"trigger": "console.WARN"
+	}, {
+		"trigger": "console.NOTICE"
+	}, {
+		"trigger": "console.INFO"
+	}, {
+		"trigger": "console.DEBUG"
+	}, {
+		"trigger": "console.NOTSET"
+	}, {
+		"trigger": "console.Integer"
+	}, {
+		"trigger": "console.readonly"
+	}, {
+		"trigger": "console.add(Array cfg);",
+		"contents": "console.add(${1:Array cfg});"
+	}, {
+		"trigger": "console.add(Value cfg);",
+		"contents": "console.add(${1:Value cfg});"
+	}, {
+		"trigger": "console.reset();"
+	}, {
+		"trigger": "console.log(String fmt, ...);",
+		"contents": "console.log(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.log(...);",
+		"contents": "console.log(${1:...});"
+	}, {
+		"trigger": "console.debug(String fmt, ...);",
+		"contents": "console.debug(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.debug(...);",
+		"contents": "console.debug(${1:...});"
+	}, {
+		"trigger": "console.info(String fmt, ...);",
+		"contents": "console.info(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.info(...);",
+		"contents": "console.info(${1:...});"
+	}, {
+		"trigger": "console.notice(String fmt, ...);",
+		"contents": "console.notice(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.notice(...);",
+		"contents": "console.notice(${1:...});"
+	}, {
+		"trigger": "console.warn(String fmt, ...);",
+		"contents": "console.warn(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.warn(...);",
+		"contents": "console.warn(${1:...});"
+	}, {
+		"trigger": "console.error(String fmt, ...);",
+		"contents": "console.error(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.error(...);",
+		"contents": "console.error(${1:...});"
+	}, {
+		"trigger": "console.crit(String fmt, ...);",
+		"contents": "console.crit(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.crit(...);",
+		"contents": "console.crit(${1:...});"
+	}, {
+		"trigger": "console.alert(String fmt, ...);",
+		"contents": "console.alert(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.alert(...);",
+		"contents": "console.alert(${1:...});"
+	}, {
+		"trigger": "console.dir(Value obj);",
+		"contents": "console.dir(${1:Value obj});"
+	}, {
+		"trigger": "console.time(String label = \"time\");",
+		"contents": "console.time(${1:String label = \"time\"});"
+	}, {
+		"trigger": "console.timeEnd(String label = \"time\");",
+		"contents": "console.timeEnd(${1:String label = \"time\"});"
+	}, {
+		"trigger": "console.trace(String label = \"trace\");",
+		"contents": "console.trace(${1:String label = \"trace\"});"
+	}, {
+		"trigger": "console.assert(Value value, String msg = \"\");",
+		"contents": "console.assert(${1:Value value}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "console.print(String fmt, ...);",
+		"contents": "console.print(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "console.print(...);",
+		"contents": "console.print(${1:...});"
+	}, {
+		"trigger": "console.readLine(String msg = \"\");",
+		"contents": "console.readLine(${1:String msg = \"\"});"
+	}, {
+		"trigger": "coroutine"
+	}, {
+		"trigger": "new coroutine.Lock();"
+	}, {
+		"trigger": "new coroutine.Semaphore();"
+	}, {
+		"trigger": "new coroutine.Condition();"
+	}, {
+		"trigger": "new coroutine.Event();"
+	}, {
+		"trigger": "new coroutine.Trigger();"
+	}, {
+		"trigger": "new coroutine.BlockQueue();"
+	}, {
+		"trigger": "coroutine.start(Function func, ...);",
+		"contents": "coroutine.start(${1:Function func}, ${2:...});"
+	}, {
+		"trigger": "coroutine.parallel(Array func);",
+		"contents": "coroutine.parallel(${1:Array func});"
+	}, {
+		"trigger": "coroutine.parallel(Array data, Function func);",
+		"contents": "coroutine.parallel(${1:Array data}, ${2:Function func});"
+	}, {
+		"trigger": "coroutine.parallel(...);",
+		"contents": "coroutine.parallel(${1:...});"
+	}, {
+		"trigger": "coroutine.current();"
+	}, {
+		"trigger": "coroutine.sleep(Integer ms = 0);",
+		"contents": "coroutine.sleep(${1:Integer ms = 0});"
+	}, {
+		"trigger": "coroutine.Boolean"
+	}, {
+		"trigger": "crypto"
+	}, {
+		"trigger": "crypto.AES"
+	}, {
+		"trigger": "crypto.CAMELLIA"
+	}, {
+		"trigger": "crypto.DES"
+	}, {
+		"trigger": "crypto.DES_EDE"
+	}, {
+		"trigger": "crypto.DES_EDE3"
+	}, {
+		"trigger": "crypto.BLOWFISH"
+	}, {
+		"trigger": "crypto.ARC4"
+	}, {
+		"trigger": "crypto.ECB"
+	}, {
+		"trigger": "crypto.CBC"
+	}, {
+		"trigger": "crypto.CFB64"
+	}, {
+		"trigger": "crypto.CFB128"
+	}, {
+		"trigger": "crypto.OFB"
+	}, {
+		"trigger": "crypto.CTR"
+	}, {
+		"trigger": "crypto.GCM"
+	}, {
+		"trigger": "crypto.STREAM"
+	}, {
+		"trigger": "crypto.CCM"
+	}, {
+		"trigger": "crypto.PKCS7"
+	}, {
+		"trigger": "crypto.ONE_AND_ZEROS"
+	}, {
+		"trigger": "crypto.ZEROS_AND_LEN"
+	}, {
+		"trigger": "crypto.ZEROS"
+	}, {
+		"trigger": "crypto.NOPADDING"
+	}, {
+		"trigger": "new crypto.Cipher();"
+	}, {
+		"trigger": "new crypto.PKey();"
+	}, {
+		"trigger": "new crypto.X509Cert();"
+	}, {
+		"trigger": "new crypto.X509Crl();"
+	}, {
+		"trigger": "new crypto.X509Req();"
+	}, {
+		"trigger": "crypto.randomBytes(Integer size);",
+		"contents": "crypto.randomBytes(${1:Integer size});"
+	}, {
+		"trigger": "crypto.pseudoRandomBytes(Integer size);",
+		"contents": "crypto.pseudoRandomBytes(${1:Integer size});"
+	}, {
+		"trigger": "crypto.randomArt(Buffer data, String title, Integer size = 8);",
+		"contents": "crypto.randomArt(${1:Buffer data}, ${2:String title}, ${3:Integer size = 8});"
+	}, {
+		"trigger": "db"
+	}, {
+		"trigger": "db.open(String connString);",
+		"contents": "db.open(${1:String connString});"
+	}, {
+		"trigger": "db.openMySQL(String connString);",
+		"contents": "db.openMySQL(${1:String connString});"
+	}, {
+		"trigger": "db.openSQLite(String connString);",
+		"contents": "db.openSQLite(${1:String connString});"
+	}, {
+		"trigger": "db.openMongoDB(String connString);",
+		"contents": "db.openMongoDB(${1:String connString});"
+	}, {
+		"trigger": "db.openLevelDB(String connString);",
+		"contents": "db.openLevelDB(${1:String connString});"
+	}, {
+		"trigger": "db.openRedis(String connString);",
+		"contents": "db.openRedis(${1:String connString});"
+	}, {
+		"trigger": "db.format(String sql, ...);",
+		"contents": "db.format(${1:String sql}, ${2:...});"
+	}, {
+		"trigger": "db.formatMySQL(String sql, ...);",
+		"contents": "db.formatMySQL(${1:String sql}, ${2:...});"
+	}, {
+		"trigger": "db.escape(String str, Boolean mysql = false);",
+		"contents": "db.escape(${1:String str}, ${2:Boolean mysql = false});"
+	}, {
+		"trigger": "DbConnection"
+	}, {
+		"trigger": "DbConnection.close();"
+	}, {
+		"trigger": "DbConnection.begin();"
+	}, {
+		"trigger": "DbConnection.commit();"
+	}, {
+		"trigger": "DbConnection.rollback();"
+	}, {
+		"trigger": "DbConnection.execute(String sql);",
+		"contents": "DbConnection.execute(${1:String sql});"
+	}, {
+		"trigger": "DbConnection.execute(String sql, ...);",
+		"contents": "DbConnection.execute(${1:String sql}, ${2:...});"
+	}, {
+		"trigger": "DbConnection.format(String sql, ...);",
+		"contents": "DbConnection.format(${1:String sql}, ${2:...});"
+	}, {
+		"trigger": "DBResult"
+	}, {
+		"trigger": "DBResult.insertId"
+	}, {
+		"trigger": "DBResult.affected"
+	}, {
+		"trigger": "DBResult.fields"
+	}, {
+		"trigger": "DBRow"
+	}, {
+		"trigger": "DBRow.operator"
+	}, {
+		"trigger": "DBRow.operator"
+	}, {
+		"trigger": "Digest"
+	}, {
+		"trigger": "Digest.update(Buffer data);",
+		"contents": "Digest.update(${1:Buffer data});"
+	}, {
+		"trigger": "Digest.digest(Buffer data);",
+		"contents": "Digest.digest(${1:Buffer data});"
+	}, {
+		"trigger": "Digest.digest();"
+	}, {
+		"trigger": "Digest.size"
+	}, {
+		"trigger": "encoding"
+	}, {
+		"trigger": "encoding.base32Encode(Buffer data);",
+		"contents": "encoding.base32Encode(${1:Buffer data});"
+	}, {
+		"trigger": "encoding.base32Decode(String data);",
+		"contents": "encoding.base32Decode(${1:String data});"
+	}, {
+		"trigger": "encoding.base64Encode(Buffer data);",
+		"contents": "encoding.base64Encode(${1:Buffer data});"
+	}, {
+		"trigger": "encoding.base64Decode(String data);",
+		"contents": "encoding.base64Decode(${1:String data});"
+	}, {
+		"trigger": "encoding.hexEncode(Buffer data);",
+		"contents": "encoding.hexEncode(${1:Buffer data});"
+	}, {
+		"trigger": "encoding.hexDecode(String data);",
+		"contents": "encoding.hexDecode(${1:String data});"
+	}, {
+		"trigger": "encoding.iconvEncode(String charset, String data);",
+		"contents": "encoding.iconvEncode(${1:String charset}, ${2:String data});"
+	}, {
+		"trigger": "encoding.iconvDecode(String charset, Buffer data);",
+		"contents": "encoding.iconvDecode(${1:String charset}, ${2:Buffer data});"
+	}, {
+		"trigger": "encoding.jsstr(String str);",
+		"contents": "encoding.jsstr(${1:String str});"
+	}, {
+		"trigger": "encoding.encodeURI(String url);",
+		"contents": "encoding.encodeURI(${1:String url});"
+	}, {
+		"trigger": "encoding.encodeURIComponent(String url);",
+		"contents": "encoding.encodeURIComponent(${1:String url});"
+	}, {
+		"trigger": "encoding.decodeURI(String url);",
+		"contents": "encoding.decodeURI(${1:String url});"
+	}, {
+		"trigger": "encoding.jsonEncode(Value data);",
+		"contents": "encoding.jsonEncode(${1:Value data});"
+	}, {
+		"trigger": "encoding.jsonDecode(String data);",
+		"contents": "encoding.jsonDecode(${1:String data});"
+	}, {
+		"trigger": "encoding.bsonEncode(Object data);",
+		"contents": "encoding.bsonEncode(${1:Object data});"
+	}, {
+		"trigger": "encoding.bsonDecode(Buffer data);",
+		"contents": "encoding.bsonDecode(${1:Buffer data});"
+	}, {
+		"trigger": "Event"
+	}, {
+		"trigger": "Event.Event(Boolean value = false);",
+		"contents": "Event.Event(${1:Boolean value = false});"
+	}, {
+		"trigger": "Event.isSet();"
+	}, {
+		"trigger": "Event.set();"
+	}, {
+		"trigger": "Event.pulse();"
+	}, {
+		"trigger": "Event.clear();"
+	}, {
+		"trigger": "Event.wait();"
+	}, {
+		"trigger": "Expect"
+	}, {
+		"trigger": "Expect.to"
+	}, {
+		"trigger": "Expect.be"
+	}, {
+		"trigger": "Expect.been"
+	}, {
+		"trigger": "Expect.is"
+	}, {
+		"trigger": "Expect.that"
+	}, {
+		"trigger": "Expect.and"
+	}, {
+		"trigger": "Expect.have"
+	}, {
+		"trigger": "Expect.with"
+	}, {
+		"trigger": "Expect.at"
+	}, {
+		"trigger": "Expect.of"
+	}, {
+		"trigger": "Expect.same"
+	}, {
+		"trigger": "Expect.not"
+	}, {
+		"trigger": "Expect.deep"
+	}, {
+		"trigger": "Expect.a(String type);",
+		"contents": "Expect.a(${1:String type});"
+	}, {
+		"trigger": "Expect.an(String type);",
+		"contents": "Expect.an(${1:String type});"
+	}, {
+		"trigger": "Expect.ok"
+	}, {
+		"trigger": "Expect.true"
+	}, {
+		"trigger": "Expect.false"
+	}, {
+		"trigger": "Expect.null"
+	}, {
+		"trigger": "Expect.undefined"
+	}, {
+		"trigger": "Expect.function"
+	}, {
+		"trigger": "Expect.object"
+	}, {
+		"trigger": "Expect.array"
+	}, {
+		"trigger": "Expect.string"
+	}, {
+		"trigger": "Expect.number"
+	}, {
+		"trigger": "Expect.boolean"
+	}, {
+		"trigger": "Expect.exist"
+	}, {
+		"trigger": "Expect.equal(Value expected);",
+		"contents": "Expect.equal(${1:Value expected});"
+	}, {
+		"trigger": "Expect.eql(Value expected);",
+		"contents": "Expect.eql(${1:Value expected});"
+	}, {
+		"trigger": "Expect.above(Value expected);",
+		"contents": "Expect.above(${1:Value expected});"
+	}, {
+		"trigger": "Expect.greaterThan(Value expected);",
+		"contents": "Expect.greaterThan(${1:Value expected});"
+	}, {
+		"trigger": "Expect.least(Value expected);",
+		"contents": "Expect.least(${1:Value expected});"
+	}, {
+		"trigger": "Expect.below(Value expected);",
+		"contents": "Expect.below(${1:Value expected});"
+	}, {
+		"trigger": "Expect.lessThan(Value expected);",
+		"contents": "Expect.lessThan(${1:Value expected});"
+	}, {
+		"trigger": "Expect.most(Value expected);",
+		"contents": "Expect.most(${1:Value expected});"
+	}, {
+		"trigger": "Expect.property(Value prop);",
+		"contents": "Expect.property(${1:Value prop});"
+	}, {
+		"trigger": "Expect.property(Value prop, Value value);",
+		"contents": "Expect.property(${1:Value prop}, ${2:Value value});"
+	}, {
+		"trigger": "Expect.closeTo(Value expected, Value delta);",
+		"contents": "Expect.closeTo(${1:Value expected}, ${2:Value delta});"
+	}, {
+		"trigger": "Fiber"
+	}, {
+		"trigger": "Fiber.join();"
+	}, {
+		"trigger": "Fiber.caller"
+	}, {
+		"trigger": "File"
+	}, {
+		"trigger": "File.name"
+	}, {
+		"trigger": "File.truncate(Long bytes);",
+		"contents": "File.truncate(${1:Long bytes});"
+	}, {
+		"trigger": "File.eof();"
+	}, {
+		"trigger": "File.flush();"
+	}, {
+		"trigger": "File.chmod(Integer mode);",
+		"contents": "File.chmod(${1:Integer mode});"
+	}, {
+		"trigger": "fs"
+	}, {
+		"trigger": "fs.SEEK_SET"
+	}, {
+		"trigger": "fs.SEEK_CUR"
+	}, {
+		"trigger": "fs.SEEK_END"
+	}, {
+		"trigger": "fs.exists(String path);",
+		"contents": "fs.exists(${1:String path});"
+	}, {
+		"trigger": "fs.unlink(String path);",
+		"contents": "fs.unlink(${1:String path});"
+	}, {
+		"trigger": "fs.umask(Integer mask);",
+		"contents": "fs.umask(${1:Integer mask});"
+	}, {
+		"trigger": "fs.mkdir(String path, Integer mode = 0777);",
+		"contents": "fs.mkdir(${1:String path}, ${2:Integer mode = 0777});"
+	}, {
+		"trigger": "fs.rmdir(String path);",
+		"contents": "fs.rmdir(${1:String path});"
+	}, {
+		"trigger": "fs.rename(String from, String to);",
+		"contents": "fs.rename(${1:String from}, ${2:String to});"
+	}, {
+		"trigger": "fs.chmod(String path, Integer mode);",
+		"contents": "fs.chmod(${1:String path}, ${2:Integer mode});"
+	}, {
+		"trigger": "fs.stat(String path);",
+		"contents": "fs.stat(${1:String path});"
+	}, {
+		"trigger": "fs.readdir(String path);",
+		"contents": "fs.readdir(${1:String path});"
+	}, {
+		"trigger": "fs.open(String fname, String flags = \"r\");",
+		"contents": "fs.open(${1:String fname}, ${2:String flags = \"r\"});"
+	}, {
+		"trigger": "fs.tmpFile();"
+	}, {
+		"trigger": "fs.openTextStream(String fname, String flags = \"r\");",
+		"contents": "fs.openTextStream(${1:String fname}, ${2:String flags = \"r\"});"
+	}, {
+		"trigger": "fs.readFile(String fname);",
+		"contents": "fs.readFile(${1:String fname});"
+	}, {
+		"trigger": "fs.readLines(String fname, Integer maxlines = -1);",
+		"contents": "fs.readLines(${1:String fname}, ${2:Integer maxlines = -1});"
+	}, {
+		"trigger": "fs.writeFile(String fname, String txt);",
+		"contents": "fs.writeFile(${1:String fname}, ${2:String txt});"
+	}, {
+		"trigger": "Function"
+	}, {
+		"trigger": "Function.start(...);",
+		"contents": "Function.start(${1:...});"
+	}, {
+		"trigger": "gd"
+	}, {
+		"trigger": "gd.NONE"
+	}, {
+		"trigger": "gd.JPEG"
+	}, {
+		"trigger": "gd.GIF"
+	}, {
+		"trigger": "gd.PNG"
+	}, {
+		"trigger": "gd.TIFF"
+	}, {
+		"trigger": "gd.BMP"
+	}, {
+		"trigger": "gd.GD"
+	}, {
+		"trigger": "gd.GD2"
+	}, {
+		"trigger": "gd.TRUECOLOR"
+	}, {
+		"trigger": "gd.PALETTE"
+	}, {
+		"trigger": "gd.ARC"
+	}, {
+		"trigger": "gd.CHORD"
+	}, {
+		"trigger": "gd.NOFILL"
+	}, {
+		"trigger": "gd.EDGED"
+	}, {
+		"trigger": "gd.HORIZONTAL"
+	}, {
+		"trigger": "gd.VERTICAL"
+	}, {
+		"trigger": "gd.BOTH"
+	}, {
+		"trigger": "gd.LEFT"
+	}, {
+		"trigger": "gd.RIGHT"
+	}, {
+		"trigger": "gd.create(Integer width, Integer height, Integer color = gd.TRUECOLOR);",
+		"contents": "gd.create(${1:Integer width}, ${2:Integer height}, ${3:Integer color = gd.TRUECOLOR});"
+	}, {
+		"trigger": "gd.load(Buffer data);",
+		"contents": "gd.load(${1:Buffer data});"
+	}, {
+		"trigger": "gd.load(SeekableStream stm);",
+		"contents": "gd.load(${1:SeekableStream stm});"
+	}, {
+		"trigger": "gd.load(String fname);",
+		"contents": "gd.load(${1:String fname});"
+	}, {
+		"trigger": "gd.rgb(Integer red, Integer green, Integer blue);",
+		"contents": "gd.rgb(${1:Integer red}, ${2:Integer green}, ${3:Integer blue});"
+	}, {
+		"trigger": "gd.rgba(Integer red, Integer green, Integer blue, Number alpha);",
+		"contents": "gd.rgba(${1:Integer red}, ${2:Integer green}, ${3:Integer blue}, ${4:Number alpha});"
+	}, {
+		"trigger": "gd.hsl(Number hue, Number saturation, Number lightness);",
+		"contents": "gd.hsl(${1:Number hue}, ${2:Number saturation}, ${3:Number lightness});"
+	}, {
+		"trigger": "gd.hsla(Number hue, Number saturation, Number lightness, Number alpha);",
+		"contents": "gd.hsla(${1:Number hue}, ${2:Number saturation}, ${3:Number lightness}, ${4:Number alpha});"
+	}, {
+		"trigger": "gd.color(String color);",
+		"contents": "gd.color(${1:String color});"
+	}, {
+		"trigger": "global"
+	}, {
+		"trigger": "new global.Buffer();"
+	}, {
+		"trigger": "new global.Int64();"
+	}, {
+		"trigger": "global.readonly"
+	}, {
+		"trigger": "global.run(String fname);",
+		"contents": "global.run(${1:String fname});"
+	}, {
+		"trigger": "global.require(String id);",
+		"contents": "global.require(${1:String id});"
+	}, {
+		"trigger": "global.GC();"
+	}, {
+		"trigger": "GridFS"
+	}, {
+		"trigger": "GridFS.retrieve(String name);",
+		"contents": "GridFS.retrieve(${1:String name});"
+	}, {
+		"trigger": "GridFS.store(String name, Stream src);",
+		"contents": "GridFS.store(${1:String name}, ${2:Stream src});"
+	}, {
+		"trigger": "GridFS.store(String name, Buffer data);",
+		"contents": "GridFS.store(${1:String name}, ${2:Buffer data});"
+	}, {
+		"trigger": "GridFS.exists(String name);",
+		"contents": "GridFS.exists(${1:String name});"
+	}, {
+		"trigger": "GridFS.remove(String name);",
+		"contents": "GridFS.remove(${1:String name});"
+	}, {
+		"trigger": "GridFS.files"
+	}, {
+		"trigger": "GridFS.chunks"
+	}, {
+		"trigger": "Handler"
+	}, {
+		"trigger": "Handler.invoke(object v);",
+		"contents": "Handler.invoke(${1:object v});"
+	}, {
+		"trigger": "hash"
+	}, {
+		"trigger": "hash.MD2"
+	}, {
+		"trigger": "hash.MD4"
+	}, {
+		"trigger": "hash.MD5"
+	}, {
+		"trigger": "hash.SHA1"
+	}, {
+		"trigger": "hash.SHA224"
+	}, {
+		"trigger": "hash.SHA256"
+	}, {
+		"trigger": "hash.SHA384"
+	}, {
+		"trigger": "hash.SHA512"
+	}, {
+		"trigger": "hash.RIPEMD160"
+	}, {
+		"trigger": "hash.digest(Integer algo, Buffer data);",
+		"contents": "hash.digest(${1:Integer algo}, ${2:Buffer data});"
+	}, {
+		"trigger": "hash.digest(Integer algo);",
+		"contents": "hash.digest(${1:Integer algo});"
+	}, {
+		"trigger": "hash.md2(Buffer data);",
+		"contents": "hash.md2(${1:Buffer data});"
+	}, {
+		"trigger": "hash.md4(Buffer data);",
+		"contents": "hash.md4(${1:Buffer data});"
+	}, {
+		"trigger": "hash.md5(Buffer data);",
+		"contents": "hash.md5(${1:Buffer data});"
+	}, {
+		"trigger": "hash.sha1(Buffer data);",
+		"contents": "hash.sha1(${1:Buffer data});"
+	}, {
+		"trigger": "hash.sha224(Buffer data);",
+		"contents": "hash.sha224(${1:Buffer data});"
+	}, {
+		"trigger": "hash.sha256(Buffer data);",
+		"contents": "hash.sha256(${1:Buffer data});"
+	}, {
+		"trigger": "hash.sha384(Buffer data);",
+		"contents": "hash.sha384(${1:Buffer data});"
+	}, {
+		"trigger": "hash.sha512(Buffer data);",
+		"contents": "hash.sha512(${1:Buffer data});"
+	}, {
+		"trigger": "hash.ripemd160(Buffer data);",
+		"contents": "hash.ripemd160(${1:Buffer data});"
+	}, {
+		"trigger": "hash.hmac(Integer algo, Buffer key);",
+		"contents": "hash.hmac(${1:Integer algo}, ${2:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_md2(Buffer key);",
+		"contents": "hash.hmac_md2(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_md4(Buffer key);",
+		"contents": "hash.hmac_md4(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_md5(Buffer key);",
+		"contents": "hash.hmac_md5(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_sha1(Buffer key);",
+		"contents": "hash.hmac_sha1(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_sha224(Buffer key);",
+		"contents": "hash.hmac_sha224(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_sha256(Buffer key);",
+		"contents": "hash.hmac_sha256(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_sha384(Buffer key);",
+		"contents": "hash.hmac_sha384(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_sha512(Buffer key);",
+		"contents": "hash.hmac_sha512(${1:Buffer key});"
+	}, {
+		"trigger": "hash.hmac_ripemd160(Buffer key);",
+		"contents": "hash.hmac_ripemd160(${1:Buffer key});"
+	}, {
+		"trigger": "http"
+	}, {
+		"trigger": "new http.Request();"
+	}, {
+		"trigger": "new http.Response();"
+	}, {
+		"trigger": "new http.Cookie();"
+	}, {
+		"trigger": "new http.Server();"
+	}, {
+		"trigger": "new http.HttpsServer();"
+	}, {
+		"trigger": "new http.Handler();"
+	}, {
+		"trigger": "http.fileHandler(String root, Object mimes = {});",
+		"contents": "http.fileHandler(${1:String root}, ${2:Object mimes = {}});"
+	}, {
+		"trigger": "http.request(Stream conn, HttpRequest req);",
+		"contents": "http.request(${1:Stream conn}, ${2:HttpRequest req});"
+	}, {
+		"trigger": "http.request(String method, String url, Object headers = {});",
+		"contents": "http.request(${1:String method}, ${2:String url}, ${3:Object headers = {}});"
+	}, {
+		"trigger": "http.request(String method, String url, SeekableStream body, Object headers = {});",
+		"contents": "http.request(${1:String method}, ${2:String url}, ${3:SeekableStream body}, ${4:Object headers = {}});"
+	}, {
+		"trigger": "http.request(String method, String url, Buffer body, Object headers = {});",
+		"contents": "http.request(${1:String method}, ${2:String url}, ${3:Buffer body}, ${4:Object headers = {}});"
+	}, {
+		"trigger": "http.get(String url, Object headers = {});",
+		"contents": "http.get(${1:String url}, ${2:Object headers = {}});"
+	}, {
+		"trigger": "http.post(String url, SeekableStream body, Object headers = {});",
+		"contents": "http.post(${1:String url}, ${2:SeekableStream body}, ${3:Object headers = {}});"
+	}, {
+		"trigger": "http.post(String url, Buffer body, Object headers = {});",
+		"contents": "http.post(${1:String url}, ${2:Buffer body}, ${3:Object headers = {}});"
+	}, {
+		"trigger": "HttpCollection"
+	}, {
+		"trigger": "HttpCollection.clear();"
+	}, {
+		"trigger": "HttpCollection.has(String name);",
+		"contents": "HttpCollection.has(${1:String name});"
+	}, {
+		"trigger": "HttpCollection.first(String name);",
+		"contents": "HttpCollection.first(${1:String name});"
+	}, {
+		"trigger": "HttpCollection.all(String name);",
+		"contents": "HttpCollection.all(${1:String name});"
+	}, {
+		"trigger": "HttpCollection.add(Object map);",
+		"contents": "HttpCollection.add(${1:Object map});"
+	}, {
+		"trigger": "HttpCollection.add(String name, Variant value);",
+		"contents": "HttpCollection.add(${1:String name}, ${2:Variant value});"
+	}, {
+		"trigger": "HttpCollection.set(Object map);",
+		"contents": "HttpCollection.set(${1:Object map});"
+	}, {
+		"trigger": "HttpCollection.set(String name, Variant value);",
+		"contents": "HttpCollection.set(${1:String name}, ${2:Variant value});"
+	}, {
+		"trigger": "HttpCollection.remove(String name);",
+		"contents": "HttpCollection.remove(${1:String name});"
+	}, {
+		"trigger": "HttpCollection.operator"
+	}, {
+		"trigger": "HttpCookie"
+	}, {
+		"trigger": "HttpCookie.HttpCookie(Object opts = {});",
+		"contents": "HttpCookie.HttpCookie(${1:Object opts = {}});"
+	}, {
+		"trigger": "HttpCookie.HttpCookie(String name, String value, Object opts = {});",
+		"contents": "HttpCookie.HttpCookie(${1:String name}, ${2:String value}, ${3:Object opts = {}});"
+	}, {
+		"trigger": "HttpCookie.parse(String header);",
+		"contents": "HttpCookie.parse(${1:String header});"
+	}, {
+		"trigger": "HttpCookie.match(String url);",
+		"contents": "HttpCookie.match(${1:String url});"
+	}, {
+		"trigger": "HttpCookie.name"
+	}, {
+		"trigger": "HttpCookie.value"
+	}, {
+		"trigger": "HttpCookie.domain"
+	}, {
+		"trigger": "HttpCookie.path"
+	}, {
+		"trigger": "HttpCookie.expires"
+	}, {
+		"trigger": "HttpCookie.httpOnly"
+	}, {
+		"trigger": "HttpCookie.secure"
+	}, {
+		"trigger": "HttpHandler"
+	}, {
+		"trigger": "HttpHandler.HttpHandler(Value hdlr);",
+		"contents": "HttpHandler.HttpHandler(${1:Value hdlr});"
+	}, {
+		"trigger": "HttpHandler.crossDomain"
+	}, {
+		"trigger": "HttpHandler.forceGZIP"
+	}, {
+		"trigger": "HttpHandler.maxHeadersCount"
+	}, {
+		"trigger": "HttpHandler.maxUploadSize"
+	}, {
+		"trigger": "HttpHandler.handler"
+	}, {
+		"trigger": "HttpHandler.stats"
+	}, {
+		"trigger": "HttpMessage"
+	}, {
+		"trigger": "HttpMessage.protocol"
+	}, {
+		"trigger": "HttpMessage.headers"
+	}, {
+		"trigger": "HttpMessage.keepAlive"
+	}, {
+		"trigger": "HttpMessage.maxHeadersCount"
+	}, {
+		"trigger": "HttpMessage.maxUploadSize"
+	}, {
+		"trigger": "HttpMessage.hasHeader(String name);",
+		"contents": "HttpMessage.hasHeader(${1:String name});"
+	}, {
+		"trigger": "HttpMessage.firstHeader(String name);",
+		"contents": "HttpMessage.firstHeader(${1:String name});"
+	}, {
+		"trigger": "HttpMessage.allHeader(String name);",
+		"contents": "HttpMessage.allHeader(${1:String name});"
+	}, {
+		"trigger": "HttpMessage.addHeader(Object map);",
+		"contents": "HttpMessage.addHeader(${1:Object map});"
+	}, {
+		"trigger": "HttpMessage.addHeader(String name, Variant value);",
+		"contents": "HttpMessage.addHeader(${1:String name}, ${2:Variant value});"
+	}, {
+		"trigger": "HttpMessage.setHeader(Object map);",
+		"contents": "HttpMessage.setHeader(${1:Object map});"
+	}, {
+		"trigger": "HttpMessage.setHeader(String name, Variant value);",
+		"contents": "HttpMessage.setHeader(${1:String name}, ${2:Variant value});"
+	}, {
+		"trigger": "HttpMessage.removeHeader(String name);",
+		"contents": "HttpMessage.removeHeader(${1:String name});"
+	}, {
+		"trigger": "HttpRequest"
+	}, {
+		"trigger": "HttpRequest.HttpRequest();"
+	}, {
+		"trigger": "HttpRequest.method"
+	}, {
+		"trigger": "HttpRequest.address"
+	}, {
+		"trigger": "HttpRequest.queryString"
+	}, {
+		"trigger": "HttpRequest.cookies"
+	}, {
+		"trigger": "HttpRequest.form"
+	}, {
+		"trigger": "HttpRequest.query"
+	}, {
+		"trigger": "HttpResponse"
+	}, {
+		"trigger": "HttpResponse.HttpResponse();"
+	}, {
+		"trigger": "HttpResponse.status"
+	}, {
+		"trigger": "HttpResponse.cookies"
+	}, {
+		"trigger": "HttpResponse.addCookie(HttpCookie cookie);",
+		"contents": "HttpResponse.addCookie(${1:HttpCookie cookie});"
+	}, {
+		"trigger": "HttpResponse.redirect(String url);",
+		"contents": "HttpResponse.redirect(${1:String url});"
+	}, {
+		"trigger": "HttpServer"
+	}, {
+		"trigger": "HttpServer.HttpServer(Integer port, Value hdlr);",
+		"contents": "HttpServer.HttpServer(${1:Integer port}, ${2:Value hdlr});"
+	}, {
+		"trigger": "HttpServer.HttpServer(String addr, Integer port, Value hdlr);",
+		"contents": "HttpServer.HttpServer(${1:String addr}, ${2:Integer port}, ${3:Value hdlr});"
+	}, {
+		"trigger": "HttpServer.crossDomain"
+	}, {
+		"trigger": "HttpServer.forceGZIP"
+	}, {
+		"trigger": "HttpServer.maxHeadersCount"
+	}, {
+		"trigger": "HttpServer.maxUploadSize"
+	}, {
+		"trigger": "HttpServer.httpStats"
+	}, {
+		"trigger": "HttpsServer"
+	}, {
+		"trigger": "HttpsServer.HttpsServer(Array certs, Integer port, Value hdlr);",
+		"contents": "HttpsServer.HttpsServer(${1:Array certs}, ${2:Integer port}, ${3:Value hdlr});"
+	}, {
+		"trigger": "HttpsServer.HttpsServer(Array certs, String addr, Integer port, Value hdlr);",
+		"contents": "HttpsServer.HttpsServer(${1:Array certs}, ${2:String addr}, ${3:Integer port}, ${4:Value hdlr});"
+	}, {
+		"trigger": "HttpsServer.HttpsServer(X509Cert crt, PKey key, Integer port, Value hdlr);",
+		"contents": "HttpsServer.HttpsServer(${1:X509Cert crt}, ${2:PKey key}, ${3:Integer port}, ${4:Value hdlr});"
+	}, {
+		"trigger": "HttpsServer.HttpsServer(X509Cert crt, PKey key, String addr, Integer port, Value hdlr);",
+		"contents": "HttpsServer.HttpsServer(${1:X509Cert crt}, ${2:PKey key}, ${3:String addr}, ${4:Integer port}, ${5:Value hdlr});"
+	}, {
+		"trigger": "HttpsServer.verification"
+	}, {
+		"trigger": "HttpsServer.ca"
+	}, {
+		"trigger": "HttpUploadData"
+	}, {
+		"trigger": "HttpUploadData.fileName"
+	}, {
+		"trigger": "HttpUploadData.contentType"
+	}, {
+		"trigger": "HttpUploadData.contentTransferEncoding"
+	}, {
+		"trigger": "HttpUploadData.body"
+	}, {
+		"trigger": "Image"
+	}, {
+		"trigger": "Image.width"
+	}, {
+		"trigger": "Image.height"
+	}, {
+		"trigger": "Image.format"
+	}, {
+		"trigger": "Image.type"
+	}, {
+		"trigger": "Image.colorsTotal"
+	}, {
+		"trigger": "Image.transparent"
+	}, {
+		"trigger": "Image.alphaBlending"
+	}, {
+		"trigger": "Image.getData(Integer format = gd.PNG, Integer quality = 85);",
+		"contents": "Image.getData(${1:Integer format = gd.PNG}, ${2:Integer quality = 85});"
+	}, {
+		"trigger": "Image.save(Stream stm, Integer format = gd.PNG, Integer quality = 85);",
+		"contents": "Image.save(${1:Stream stm}, ${2:Integer format = gd.PNG}, ${3:Integer quality = 85});"
+	}, {
+		"trigger": "Image.save(String fname, Integer format = gd.PNG, Integer quality = 85);",
+		"contents": "Image.save(${1:String fname}, ${2:Integer format = gd.PNG}, ${3:Integer quality = 85});"
+	}, {
+		"trigger": "Image.colorAllocate(Integer red, Integer green, Integer blue);",
+		"contents": "Image.colorAllocate(${1:Integer red}, ${2:Integer green}, ${3:Integer blue});"
+	}, {
+		"trigger": "Image.colorAllocate(Integer color);",
+		"contents": "Image.colorAllocate(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorAllocateAlpha(Integer red, Integer green, Integer blue, Number alpha);",
+		"contents": "Image.colorAllocateAlpha(${1:Integer red}, ${2:Integer green}, ${3:Integer blue}, ${4:Number alpha});"
+	}, {
+		"trigger": "Image.colorAllocateAlpha(Integer color);",
+		"contents": "Image.colorAllocateAlpha(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorClosest(Integer red, Integer green, Integer blue);",
+		"contents": "Image.colorClosest(${1:Integer red}, ${2:Integer green}, ${3:Integer blue});"
+	}, {
+		"trigger": "Image.colorClosest(Integer color);",
+		"contents": "Image.colorClosest(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorClosestHWB(Integer red, Integer green, Integer blue);",
+		"contents": "Image.colorClosestHWB(${1:Integer red}, ${2:Integer green}, ${3:Integer blue});"
+	}, {
+		"trigger": "Image.colorClosestHWB(Integer color);",
+		"contents": "Image.colorClosestHWB(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorClosestAlpha(Integer red, Integer green, Integer blue, Number alpha);",
+		"contents": "Image.colorClosestAlpha(${1:Integer red}, ${2:Integer green}, ${3:Integer blue}, ${4:Number alpha});"
+	}, {
+		"trigger": "Image.colorClosestAlpha(Integer color);",
+		"contents": "Image.colorClosestAlpha(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorExact(Integer red, Integer green, Integer blue);",
+		"contents": "Image.colorExact(${1:Integer red}, ${2:Integer green}, ${3:Integer blue});"
+	}, {
+		"trigger": "Image.colorExact(Integer color);",
+		"contents": "Image.colorExact(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorExactAlpha(Integer red, Integer green, Integer blue, Number alpha);",
+		"contents": "Image.colorExactAlpha(${1:Integer red}, ${2:Integer green}, ${3:Integer blue}, ${4:Number alpha});"
+	}, {
+		"trigger": "Image.colorExactAlpha(Integer color);",
+		"contents": "Image.colorExactAlpha(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorResolve(Integer red, Integer green, Integer blue);",
+		"contents": "Image.colorResolve(${1:Integer red}, ${2:Integer green}, ${3:Integer blue});"
+	}, {
+		"trigger": "Image.colorResolve(Integer color);",
+		"contents": "Image.colorResolve(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorResolveAlpha(Integer red, Integer green, Integer blue, Number alpha);",
+		"contents": "Image.colorResolveAlpha(${1:Integer red}, ${2:Integer green}, ${3:Integer blue}, ${4:Number alpha});"
+	}, {
+		"trigger": "Image.colorResolveAlpha(Integer color);",
+		"contents": "Image.colorResolveAlpha(${1:Integer color});"
+	}, {
+		"trigger": "Image.colorDeallocate(Integer color);",
+		"contents": "Image.colorDeallocate(${1:Integer color});"
+	}, {
+		"trigger": "Image.clip(Integer x1, Integer y1, Integer x2, Integer y2);",
+		"contents": "Image.clip(${1:Integer x1}, ${2:Integer y1}, ${3:Integer x2}, ${4:Integer y2});"
+	}, {
+		"trigger": "Image.getPixel(Integer x, Integer y);",
+		"contents": "Image.getPixel(${1:Integer x}, ${2:Integer y});"
+	}, {
+		"trigger": "Image.getTrueColorPixel(Integer x, Integer y);",
+		"contents": "Image.getTrueColorPixel(${1:Integer x}, ${2:Integer y});"
+	}, {
+		"trigger": "Image.setPixel(Integer x, Integer y, Integer color);",
+		"contents": "Image.setPixel(${1:Integer x}, ${2:Integer y}, ${3:Integer color});"
+	}, {
+		"trigger": "Image.setThickness(Integer thickness);",
+		"contents": "Image.setThickness(${1:Integer thickness});"
+	}, {
+		"trigger": "Image.line(Integer x1, Integer y1, Integer x2, Integer y2, Integer color);",
+		"contents": "Image.line(${1:Integer x1}, ${2:Integer y1}, ${3:Integer x2}, ${4:Integer y2}, ${5:Integer color});"
+	}, {
+		"trigger": "Image.rectangle(Integer x1, Integer y1, Integer x2, Integer y2, Integer color);",
+		"contents": "Image.rectangle(${1:Integer x1}, ${2:Integer y1}, ${3:Integer x2}, ${4:Integer y2}, ${5:Integer color});"
+	}, {
+		"trigger": "Image.filledRectangle(Integer x1, Integer y1, Integer x2, Integer y2, Integer color);",
+		"contents": "Image.filledRectangle(${1:Integer x1}, ${2:Integer y1}, ${3:Integer x2}, ${4:Integer y2}, ${5:Integer color});"
+	}, {
+		"trigger": "Image.polygon(Array points, Integer color);",
+		"contents": "Image.polygon(${1:Array points}, ${2:Integer color});"
+	}, {
+		"trigger": "Image.openPolygon(Array points, Integer color);",
+		"contents": "Image.openPolygon(${1:Array points}, ${2:Integer color});"
+	}, {
+		"trigger": "Image.filledPolygon(Array points, Integer color);",
+		"contents": "Image.filledPolygon(${1:Array points}, ${2:Integer color});"
+	}, {
+		"trigger": "Image.ellipse(Integer x, Integer y, Integer width, Integer height, Integer color);",
+		"contents": "Image.ellipse(${1:Integer x}, ${2:Integer y}, ${3:Integer width}, ${4:Integer height}, ${5:Integer color});"
+	}, {
+		"trigger": "Image.filledEllipse(Integer x, Integer y, Integer width, Integer height, Integer color);",
+		"contents": "Image.filledEllipse(${1:Integer x}, ${2:Integer y}, ${3:Integer width}, ${4:Integer height}, ${5:Integer color});"
+	}, {
+		"trigger": "Image.arc(Integer x, Integer y, Integer width, Integer height, Integer start, Integer end, Integer color);",
+		"contents": "Image.arc(${1:Integer x}, ${2:Integer y}, ${3:Integer width}, ${4:Integer height}, ${5:Integer start}, ${6:Integer end}, ${7:Integer color});"
+	}, {
+		"trigger": "Image.filledArc(Integer x, Integer y, Integer width, Integer height, Integer start, Integer end, Integer color, Integer style = gd.ARC);",
+		"contents": "Image.filledArc(${1:Integer x}, ${2:Integer y}, ${3:Integer width}, ${4:Integer height}, ${5:Integer start}, ${6:Integer end}, ${7:Integer color}, ${8:Integer style = gd.ARC});"
+	}, {
+		"trigger": "Image.fill(Integer x, Integer y, Integer color);",
+		"contents": "Image.fill(${1:Integer x}, ${2:Integer y}, ${3:Integer color});"
+	}, {
+		"trigger": "Image.fillToBorder(Integer x, Integer y, Integer borderColor, Integer color);",
+		"contents": "Image.fillToBorder(${1:Integer x}, ${2:Integer y}, ${3:Integer borderColor}, ${4:Integer color});"
+	}, {
+		"trigger": "Image.colorReplace(Integer src, Integer dst);",
+		"contents": "Image.colorReplace(${1:Integer src}, ${2:Integer dst});"
+	}, {
+		"trigger": "Image.clone();"
+	}, {
+		"trigger": "Image.resample(Integer width, Integer height);",
+		"contents": "Image.resample(${1:Integer width}, ${2:Integer height});"
+	}, {
+		"trigger": "Image.crop(Integer x, Integer y, Integer width, Integer height);",
+		"contents": "Image.crop(${1:Integer x}, ${2:Integer y}, ${3:Integer width}, ${4:Integer height});"
+	}, {
+		"trigger": "Image.flip(Integer dir = gd.HORIZONTAL);",
+		"contents": "Image.flip(${1:Integer dir = gd.HORIZONTAL});"
+	}, {
+		"trigger": "Image.rotate(Integer dir);",
+		"contents": "Image.rotate(${1:Integer dir});"
+	}, {
+		"trigger": "Image.convert(Integer color = gd.TRUECOLOR);",
+		"contents": "Image.convert(${1:Integer color = gd.TRUECOLOR});"
+	}, {
+		"trigger": "Image.copy(Image source, Integer dstX, Integer dstY, Integer srcX, Integer srcY, Integer width, Integer height);",
+		"contents": "Image.copy(${1:Image source}, ${2:Integer dstX}, ${3:Integer dstY}, ${4:Integer srcX}, ${5:Integer srcY}, ${6:Integer width}, ${7:Integer height});"
+	}, {
+		"trigger": "Image.copyMerge(Image source, Integer dstX, Integer dstY, Integer srcX, Integer srcY, Integer width, Integer height, Integer percent);",
+		"contents": "Image.copyMerge(${1:Image source}, ${2:Integer dstX}, ${3:Integer dstY}, ${4:Integer srcX}, ${5:Integer srcY}, ${6:Integer width}, ${7:Integer height}, ${8:Integer percent});"
+	}, {
+		"trigger": "Image.copyMergeGray(Image source, Integer dstX, Integer dstY, Integer srcX, Integer srcY, Integer width, Integer height, Integer percent);",
+		"contents": "Image.copyMergeGray(${1:Image source}, ${2:Integer dstX}, ${3:Integer dstY}, ${4:Integer srcX}, ${5:Integer srcY}, ${6:Integer width}, ${7:Integer height}, ${8:Integer percent});"
+	}, {
+		"trigger": "Image.copyResized(Image source, Integer dstX, Integer dstY, Integer srcX, Integer srcY, Integer dstW, Integer dstH, Integer srcW, Integer srcH);",
+		"contents": "Image.copyResized(${1:Image source}, ${2:Integer dstX}, ${3:Integer dstY}, ${4:Integer srcX}, ${5:Integer srcY}, ${6:Integer dstW}, ${7:Integer dstH}, ${8:Integer srcW}, ${9:Integer srcH});"
+	}, {
+		"trigger": "Image.copyResampled(Image source, Integer dstX, Integer dstY, Integer srcX, Integer srcY, Integer dstW, Integer dstH, Integer srcW, Integer srcH);",
+		"contents": "Image.copyResampled(${1:Image source}, ${2:Integer dstX}, ${3:Integer dstY}, ${4:Integer srcX}, ${5:Integer srcY}, ${6:Integer dstW}, ${7:Integer dstH}, ${8:Integer srcW}, ${9:Integer srcH});"
+	}, {
+		"trigger": "Image.copyRotated(Image source, Number dstX, Number dstY, Integer srcX, Integer srcY, Integer width, Integer height, Integer angle);",
+		"contents": "Image.copyRotated(${1:Image source}, ${2:Number dstX}, ${3:Number dstY}, ${4:Integer srcX}, ${5:Integer srcY}, ${6:Integer width}, ${7:Integer height}, ${8:Integer angle});"
+	}, {
+		"trigger": "Int64"
+	}, {
+		"trigger": "Int64.Int64(Long num = 0);",
+		"contents": "Int64.Int64(${1:Long num = 0});"
+	}, {
+		"trigger": "Int64.Int64(Long hi, Long lo);",
+		"contents": "Int64.Int64(${1:Long hi}, ${2:Long lo});"
+	}, {
+		"trigger": "Int64.Int64(String num, Integer base = 10);",
+		"contents": "Int64.Int64(${1:String num}, ${2:Integer base = 10});"
+	}, {
+		"trigger": "Int64.Int64(Int64 num);",
+		"contents": "Int64.Int64(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.hi"
+	}, {
+		"trigger": "Int64.lo"
+	}, {
+		"trigger": "Int64.equal(Int64 num);",
+		"contents": "Int64.equal(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.compare(Int64 num);",
+		"contents": "Int64.compare(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.shiftLeft(Integer bits);",
+		"contents": "Int64.shiftLeft(${1:Integer bits});"
+	}, {
+		"trigger": "Int64.shiftRight(Integer bits);",
+		"contents": "Int64.shiftRight(${1:Integer bits});"
+	}, {
+		"trigger": "Int64.and(Int64 num);",
+		"contents": "Int64.and(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.or(Int64 num);",
+		"contents": "Int64.or(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.xor(Int64 num);",
+		"contents": "Int64.xor(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.add(Int64 num);",
+		"contents": "Int64.add(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.sub(Int64 num);",
+		"contents": "Int64.sub(${1:Int64 num});"
+	}, {
+		"trigger": "Int64.toNumber();"
+	}, {
+		"trigger": "Int64.toString(Integer base = 10);",
+		"contents": "Int64.toString(${1:Integer base = 10});"
+	}, {
+		"trigger": "io"
+	}, {
+		"trigger": "new io.MemoryStream();"
+	}, {
+		"trigger": "new io.BufferedStream();"
+	}, {
+		"trigger": "LevelDB"
+	}, {
+		"trigger": "LevelDB.has(Buffer key);",
+		"contents": "LevelDB.has(${1:Buffer key});"
+	}, {
+		"trigger": "LevelDB.get(Buffer key);",
+		"contents": "LevelDB.get(${1:Buffer key});"
+	}, {
+		"trigger": "LevelDB.mget(Array keys);",
+		"contents": "LevelDB.mget(${1:Array keys});"
+	}, {
+		"trigger": "LevelDB.set(Buffer key, Buffer value);",
+		"contents": "LevelDB.set(${1:Buffer key}, ${2:Buffer value});"
+	}, {
+		"trigger": "LevelDB.mset(Object map);",
+		"contents": "LevelDB.mset(${1:Object map});"
+	}, {
+		"trigger": "LevelDB.remove(Array keys);",
+		"contents": "LevelDB.remove(${1:Array keys});"
+	}, {
+		"trigger": "LevelDB.remove(Buffer key);",
+		"contents": "LevelDB.remove(${1:Buffer key});"
+	}, {
+		"trigger": "LevelDB.forEach(Function func);",
+		"contents": "LevelDB.forEach(${1:Function func});"
+	}, {
+		"trigger": "LevelDB.between(Buffer from, Buffer to, Function func);",
+		"contents": "LevelDB.between(${1:Buffer from}, ${2:Buffer to}, ${3:Function func});"
+	}, {
+		"trigger": "LevelDB.begin();"
+	}, {
+		"trigger": "LevelDB.commit();"
+	}, {
+		"trigger": "LevelDB.close();"
+	}, {
+		"trigger": "List"
+	}, {
+		"trigger": "List.List();"
+	}, {
+		"trigger": "List.operator"
+	}, {
+		"trigger": "List.length"
+	}, {
+		"trigger": "List.resize(Integer sz);",
+		"contents": "List.resize(${1:Integer sz});"
+	}, {
+		"trigger": "List.push(Variant v);",
+		"contents": "List.push(${1:Variant v});"
+	}, {
+		"trigger": "List.push(...);",
+		"contents": "List.push(${1:...});"
+	}, {
+		"trigger": "List.pop();"
+	}, {
+		"trigger": "List.slice(Integer start = 0, Integer end = -1);",
+		"contents": "List.slice(${1:Integer start = 0}, ${2:Integer end = -1});"
+	}, {
+		"trigger": "List.concat(...);",
+		"contents": "List.concat(${1:...});"
+	}, {
+		"trigger": "List.every(Function func, Object thisp = {});",
+		"contents": "List.every(${1:Function func}, ${2:Object thisp = {}});"
+	}, {
+		"trigger": "List.some(Function func, Object thisp = {});",
+		"contents": "List.some(${1:Function func}, ${2:Object thisp = {}});"
+	}, {
+		"trigger": "List.filter(Function func, Object thisp = {});",
+		"contents": "List.filter(${1:Function func}, ${2:Object thisp = {}});"
+	}, {
+		"trigger": "List.forEach(Function func, Object thisp = {});",
+		"contents": "List.forEach(${1:Function func}, ${2:Object thisp = {}});"
+	}, {
+		"trigger": "List.map(Function func, Object thisp = {});",
+		"contents": "List.map(${1:Function func}, ${2:Object thisp = {}});"
+	}, {
+		"trigger": "List.toArray();"
+	}, {
+		"trigger": "Lock"
+	}, {
+		"trigger": "Lock.Lock();"
+	}, {
+		"trigger": "Lock.acquire(Boolean blocking = true);",
+		"contents": "Lock.acquire(${1:Boolean blocking = true});"
+	}, {
+		"trigger": "Lock.release();"
+	}, {
+		"trigger": "LruCache"
+	}, {
+		"trigger": "LruCache.LruCache(Integer size, Integer timeout = 0);",
+		"contents": "LruCache.LruCache(${1:Integer size}, ${2:Integer timeout = 0});"
+	}, {
+		"trigger": "LruCache.size"
+	}, {
+		"trigger": "LruCache.clear();"
+	}, {
+		"trigger": "LruCache.has(String name);",
+		"contents": "LruCache.has(${1:String name});"
+	}, {
+		"trigger": "LruCache.get(String name);",
+		"contents": "LruCache.get(${1:String name});"
+	}, {
+		"trigger": "LruCache.get(String name, Function updater);",
+		"contents": "LruCache.get(${1:String name}, ${2:Function updater});"
+	}, {
+		"trigger": "LruCache.set(String name, Value value);",
+		"contents": "LruCache.set(${1:String name}, ${2:Value value});"
+	}, {
+		"trigger": "LruCache.put(String name, Value value);",
+		"contents": "LruCache.put(${1:String name}, ${2:Value value});"
+	}, {
+		"trigger": "LruCache.put(Object map);",
+		"contents": "LruCache.put(${1:Object map});"
+	}, {
+		"trigger": "LruCache.remove(String name);",
+		"contents": "LruCache.remove(${1:String name});"
+	}, {
+		"trigger": "LruCache.isEmpty();"
+	}, {
+		"trigger": "Map"
+	}, {
+		"trigger": "Map.Map();"
+	}, {
+		"trigger": "Map.size"
+	}, {
+		"trigger": "Map.clear();"
+	}, {
+		"trigger": "Map.has(String name);",
+		"contents": "Map.has(${1:String name});"
+	}, {
+		"trigger": "Map.get(String name);",
+		"contents": "Map.get(${1:String name});"
+	}, {
+		"trigger": "Map.put(Object map);",
+		"contents": "Map.put(${1:Object map});"
+	}, {
+		"trigger": "Map.put(String name, Value value);",
+		"contents": "Map.put(${1:String name}, ${2:Value value});"
+	}, {
+		"trigger": "Map.remove(String name);",
+		"contents": "Map.remove(${1:String name});"
+	}, {
+		"trigger": "Map.isEmpty();"
+	}, {
+		"trigger": "Map.operator"
+	}, {
+		"trigger": "MemoryStream"
+	}, {
+		"trigger": "MemoryStream.MemoryStream();"
+	}, {
+		"trigger": "MemoryStream.setTime(Date d);",
+		"contents": "MemoryStream.setTime(${1:Date d});"
+	}, {
+		"trigger": "MemoryStream.clone();"
+	}, {
+		"trigger": "MemoryStream.clear();"
+	}, {
+		"trigger": "Message"
+	}, {
+		"trigger": "Message.Message();"
+	}, {
+		"trigger": "Message.value"
+	}, {
+		"trigger": "Message.params"
+	}, {
+		"trigger": "Message.result"
+	}, {
+		"trigger": "Message.body"
+	}, {
+		"trigger": "Message.read(Integer bytes = -1);",
+		"contents": "Message.read(${1:Integer bytes = -1});"
+	}, {
+		"trigger": "Message.readAll();"
+	}, {
+		"trigger": "Message.write(Buffer data);",
+		"contents": "Message.write(${1:Buffer data});"
+	}, {
+		"trigger": "Message.length"
+	}, {
+		"trigger": "Message.clear();"
+	}, {
+		"trigger": "Message.sendTo(Stream stm);",
+		"contents": "Message.sendTo(${1:Stream stm});"
+	}, {
+		"trigger": "Message.readFrom(BufferedStream stm);",
+		"contents": "Message.readFrom(${1:BufferedStream stm});"
+	}, {
+		"trigger": "Message.stream"
+	}, {
+		"trigger": "Message.response"
+	}, {
+		"trigger": "MongoCollection"
+	}, {
+		"trigger": "MongoCollection.find(Object query = {}, Object projection = {});",
+		"contents": "MongoCollection.find(${1:Object query = {}}, ${2:Object projection = {}});"
+	}, {
+		"trigger": "MongoCollection.findOne(Object query = {}, Object projection = {});",
+		"contents": "MongoCollection.findOne(${1:Object query = {}}, ${2:Object projection = {}});"
+	}, {
+		"trigger": "MongoCollection.findAndModify(Object query);",
+		"contents": "MongoCollection.findAndModify(${1:Object query});"
+	}, {
+		"trigger": "MongoCollection.insert(Array documents);",
+		"contents": "MongoCollection.insert(${1:Array documents});"
+	}, {
+		"trigger": "MongoCollection.insert(Object document);",
+		"contents": "MongoCollection.insert(${1:Object document});"
+	}, {
+		"trigger": "MongoCollection.save(Object document);",
+		"contents": "MongoCollection.save(${1:Object document});"
+	}, {
+		"trigger": "MongoCollection.update(Object query, Object document, Boolean upsert = false, Boolean multi = false);",
+		"contents": "MongoCollection.update(${1:Object query}, ${2:Object document}, ${3:Boolean upsert = false}, ${4:Boolean multi = false});"
+	}, {
+		"trigger": "MongoCollection.update(Object query, Object document, Object options);",
+		"contents": "MongoCollection.update(${1:Object query}, ${2:Object document}, ${3:Object options});"
+	}, {
+		"trigger": "MongoCollection.remove(Object query);",
+		"contents": "MongoCollection.remove(${1:Object query});"
+	}, {
+		"trigger": "MongoCollection.runCommand(Object cmd);",
+		"contents": "MongoCollection.runCommand(${1:Object cmd});"
+	}, {
+		"trigger": "MongoCollection.runCommand(String cmd, Object arg = {});",
+		"contents": "MongoCollection.runCommand(${1:String cmd}, ${2:Object arg = {}});"
+	}, {
+		"trigger": "MongoCollection.drop();"
+	}, {
+		"trigger": "MongoCollection.ensureIndex(Object keys, Object options = {});",
+		"contents": "MongoCollection.ensureIndex(${1:Object keys}, ${2:Object options = {}});"
+	}, {
+		"trigger": "MongoCollection.reIndex();"
+	}, {
+		"trigger": "MongoCollection.dropIndex(String name);",
+		"contents": "MongoCollection.dropIndex(${1:String name});"
+	}, {
+		"trigger": "MongoCollection.dropIndexes();"
+	}, {
+		"trigger": "MongoCollection.getIndexes();"
+	}, {
+		"trigger": "MongoCollection.getCollection(String name);",
+		"contents": "MongoCollection.getCollection(${1:String name});"
+	}, {
+		"trigger": "MongoCollection.operator"
+	}, {
+		"trigger": "MongoCursor"
+	}, {
+		"trigger": "MongoCursor.skip(Integer num);",
+		"contents": "MongoCursor.skip(${1:Integer num});"
+	}, {
+		"trigger": "MongoCursor.limit(Integer size);",
+		"contents": "MongoCursor.limit(${1:Integer size});"
+	}, {
+		"trigger": "MongoCursor.sort(Object opts);",
+		"contents": "MongoCursor.sort(${1:Object opts});"
+	}, {
+		"trigger": "MongoCursor.hasNext();"
+	}, {
+		"trigger": "MongoCursor.next();"
+	}, {
+		"trigger": "MongoCursor.count(Boolean applySkipLimit = false);",
+		"contents": "MongoCursor.count(${1:Boolean applySkipLimit = false});"
+	}, {
+		"trigger": "MongoCursor.size();"
+	}, {
+		"trigger": "MongoCursor.forEach(Function func);",
+		"contents": "MongoCursor.forEach(${1:Function func});"
+	}, {
+		"trigger": "MongoCursor.map(Function func);",
+		"contents": "MongoCursor.map(${1:Function func});"
+	}, {
+		"trigger": "MongoCursor.toArray();"
+	}, {
+		"trigger": "MongoCursor.hint(Object opts);",
+		"contents": "MongoCursor.hint(${1:Object opts});"
+	}, {
+		"trigger": "MongoDB"
+	}, {
+		"trigger": "MongoDB.getCollection(String name);",
+		"contents": "MongoDB.getCollection(${1:String name});"
+	}, {
+		"trigger": "MongoDB.runCommand(Object cmd);",
+		"contents": "MongoDB.runCommand(${1:Object cmd});"
+	}, {
+		"trigger": "MongoDB.runCommand(String cmd, Value arg);",
+		"contents": "MongoDB.runCommand(${1:String cmd}, ${2:Value arg});"
+	}, {
+		"trigger": "MongoDB.operator"
+	}, {
+		"trigger": "MongoDB.fs"
+	}, {
+		"trigger": "MongoDB.oid(String hexStr = \"\");",
+		"contents": "MongoDB.oid(${1:String hexStr = \"\"});"
+	}, {
+		"trigger": "MongoDB.close();"
+	}, {
+		"trigger": "mq"
+	}, {
+		"trigger": "new mq.Message();"
+	}, {
+		"trigger": "new mq.PacketMessage();"
+	}, {
+		"trigger": "new mq.PacketHandler();"
+	}, {
+		"trigger": "new mq.HttpHandler();"
+	}, {
+		"trigger": "new mq.Chain();"
+	}, {
+		"trigger": "new mq.Routing();"
+	}, {
+		"trigger": "mq.jsHandler(Value hdlr);",
+		"contents": "mq.jsHandler(${1:Value hdlr});"
+	}, {
+		"trigger": "mq.await();"
+	}, {
+		"trigger": "mq.nullHandler();"
+	}, {
+		"trigger": "mq.invoke(Handler hdlr, object v);",
+		"contents": "mq.invoke(${1:Handler hdlr}, ${2:object v});"
+	}, {
+		"trigger": "MySQL"
+	}, {
+		"trigger": "MySQL.use(String dbName);",
+		"contents": "MySQL.use(${1:String dbName});"
+	}, {
+		"trigger": "MySQL.rxBufferSize"
+	}, {
+		"trigger": "MySQL.txBufferSize"
+	}, {
+		"trigger": "net"
+	}, {
+		"trigger": "net.AF_INET"
+	}, {
+		"trigger": "net.AF_INET6"
+	}, {
+		"trigger": "net.SOCK_STREAM"
+	}, {
+		"trigger": "net.SOCK_DGRAM"
+	}, {
+		"trigger": "net.resolve(String name, Integer family = AF_INET);",
+		"contents": "net.resolve(${1:String name}, ${2:Integer family = AF_INET});"
+	}, {
+		"trigger": "net.ip(String name);",
+		"contents": "net.ip(${1:String name});"
+	}, {
+		"trigger": "net.ipv6(String name);",
+		"contents": "net.ipv6(${1:String name});"
+	}, {
+		"trigger": "new net.Socket();"
+	}, {
+		"trigger": "net.connect(String host, Integer port, Integer family = net.AF_INET);",
+		"contents": "net.connect(${1:String host}, ${2:Integer port}, ${3:Integer family = net.AF_INET});"
+	}, {
+		"trigger": "net.connect(String url);",
+		"contents": "net.connect(${1:String url});"
+	}, {
+		"trigger": "new net.Smtp();"
+	}, {
+		"trigger": "net.openSmtp(String host, Integer port, Integer family = net.AF_INET);",
+		"contents": "net.openSmtp(${1:String host}, ${2:Integer port}, ${3:Integer family = net.AF_INET});"
+	}, {
+		"trigger": "new net.TcpServer();"
+	}, {
+		"trigger": "new net.Url();"
+	}, {
+		"trigger": "net.backend();"
+	}, {
+		"trigger": "object"
+	}, {
+		"trigger": "object.dispose();"
+	}, {
+		"trigger": "object.toString();"
+	}, {
+		"trigger": "object.toJSON(String key = \"\");",
+		"contents": "object.toJSON(${1:String key = \"\"});"
+	}, {
+		"trigger": "object.valueOf();"
+	}, {
+		"trigger": "os"
+	}, {
+		"trigger": "os.readonly"
+	}, {
+		"trigger": "os.readonly"
+	}, {
+		"trigger": "os.readonly"
+	}, {
+		"trigger": "os.readonly"
+	}, {
+		"trigger": "os.readonly"
+	}, {
+		"trigger": "os.uptime();"
+	}, {
+		"trigger": "os.loadavg();"
+	}, {
+		"trigger": "os.totalmem();"
+	}, {
+		"trigger": "os.freemem();"
+	}, {
+		"trigger": "os.CPUInfo();"
+	}, {
+		"trigger": "os.CPUs();"
+	}, {
+		"trigger": "os.networkInfo();"
+	}, {
+		"trigger": "os.time(String tmString = \"\");",
+		"contents": "os.time(${1:String tmString = \"\"});"
+	}, {
+		"trigger": "os.dateAdd(Date d, Integer num, String part);",
+		"contents": "os.dateAdd(${1:Date d}, ${2:Integer num}, ${3:String part});"
+	}, {
+		"trigger": "os.readonly"
+	}, {
+		"trigger": "os.memoryUsage();"
+	}, {
+		"trigger": "PacketHandler"
+	}, {
+		"trigger": "PacketHandler.PacketHandler(Value hdlr);",
+		"contents": "PacketHandler.PacketHandler(${1:Value hdlr});"
+	}, {
+		"trigger": "PacketHandler.maxSize"
+	}, {
+		"trigger": "PacketHandler.handler"
+	}, {
+		"trigger": "PacketHandler.stats"
+	}, {
+		"trigger": "PacketMessage"
+	}, {
+		"trigger": "PacketMessage.PacketMessage(Integer maxSize = 67108864);",
+		"contents": "PacketMessage.PacketMessage(${1:Integer maxSize = 67108864});"
+	}, {
+		"trigger": "PacketMessage.maxSize"
+	}, {
+		"trigger": "path"
+	}, {
+		"trigger": "path.normalize(String path);",
+		"contents": "path.normalize(${1:String path});"
+	}, {
+		"trigger": "path.basename(String path, String ext = \"\");",
+		"contents": "path.basename(${1:String path}, ${2:String ext = \"\"});"
+	}, {
+		"trigger": "path.extname(String path);",
+		"contents": "path.extname(${1:String path});"
+	}, {
+		"trigger": "path.dirname(String path);",
+		"contents": "path.dirname(${1:String path});"
+	}, {
+		"trigger": "path.fullpath(String path);",
+		"contents": "path.fullpath(${1:String path});"
+	}, {
+		"trigger": "path.join(...);",
+		"contents": "path.join(${1:...});"
+	}, {
+		"trigger": "path.readonly"
+	}, {
+		"trigger": "path.readonly"
+	}, {
+		"trigger": "PKey"
+	}, {
+		"trigger": "PKey.PKey();"
+	}, {
+		"trigger": "PKey.name"
+	}, {
+		"trigger": "PKey.keySize"
+	}, {
+		"trigger": "PKey.publicKey"
+	}, {
+		"trigger": "PKey.genRsaKey(Integer size);",
+		"contents": "PKey.genRsaKey(${1:Integer size});"
+	}, {
+		"trigger": "PKey.genEcKey(String curve = \"secp521r1\");",
+		"contents": "PKey.genEcKey(${1:String curve = \"secp521r1\"});"
+	}, {
+		"trigger": "PKey.isPrivate();"
+	}, {
+		"trigger": "PKey.clone();"
+	}, {
+		"trigger": "PKey.importKey(Buffer DerKey, String password = \"\");",
+		"contents": "PKey.importKey(${1:Buffer DerKey}, ${2:String password = \"\"});"
+	}, {
+		"trigger": "PKey.importKey(String pemKey, String password = \"\");",
+		"contents": "PKey.importKey(${1:String pemKey}, ${2:String password = \"\"});"
+	}, {
+		"trigger": "PKey.exportPem();"
+	}, {
+		"trigger": "PKey.exportDer();"
+	}, {
+		"trigger": "PKey.encrypt(Buffer data);",
+		"contents": "PKey.encrypt(${1:Buffer data});"
+	}, {
+		"trigger": "PKey.decrypt(Buffer data);",
+		"contents": "PKey.decrypt(${1:Buffer data});"
+	}, {
+		"trigger": "PKey.sign(Buffer data);",
+		"contents": "PKey.sign(${1:Buffer data});"
+	}, {
+		"trigger": "PKey.verify(Buffer sign, Buffer data);",
+		"contents": "PKey.verify(${1:Buffer sign}, ${2:Buffer data});"
+	}, {
+		"trigger": "process"
+	}, {
+		"trigger": "process.readonly"
+	}, {
+		"trigger": "process.readonly"
+	}, {
+		"trigger": "process.exit(Integer code);",
+		"contents": "process.exit(${1:Integer code});"
+	}, {
+		"trigger": "process.cwd();"
+	}, {
+		"trigger": "process.chdir(String directory);",
+		"contents": "process.chdir(${1:String directory});"
+	}, {
+		"trigger": "process.memoryUsage();"
+	}, {
+		"trigger": "process.system(String cmd);",
+		"contents": "process.system(${1:String cmd});"
+	}, {
+		"trigger": "process.popen(String cmd);",
+		"contents": "process.popen(${1:String cmd});"
+	}, {
+		"trigger": "process.exec(String cmd);",
+		"contents": "process.exec(${1:String cmd});"
+	}, {
+		"trigger": "Queue"
+	}, {
+		"trigger": "Queue.Queue(Integer size);",
+		"contents": "Queue.Queue(${1:Integer size});"
+	}, {
+		"trigger": "Queue.add(Value e);",
+		"contents": "Queue.add(${1:Value e});"
+	}, {
+		"trigger": "Queue.offer(Value e);",
+		"contents": "Queue.offer(${1:Value e});"
+	}, {
+		"trigger": "Queue.remove();"
+	}, {
+		"trigger": "Queue.poll();"
+	}, {
+		"trigger": "Queue.element();"
+	}, {
+		"trigger": "Queue.peek();"
+	}, {
+		"trigger": "Queue.clear();"
+	}, {
+		"trigger": "Queue.toArray();"
+	}, {
+		"trigger": "Queue.length"
+	}, {
+		"trigger": "re"
+	}, {
+		"trigger": "re.compile(String pattern, String opt = \"\");",
+		"contents": "re.compile(${1:String pattern}, ${2:String opt = \"\"});"
+	}, {
+		"trigger": "Redis"
+	}, {
+		"trigger": "Redis.command(String cmd, ...);",
+		"contents": "Redis.command(${1:String cmd}, ${2:...});"
+	}, {
+		"trigger": "Redis.set(Buffer key, Buffer value, Long ttl = 0);",
+		"contents": "Redis.set(${1:Buffer key}, ${2:Buffer value}, ${3:Long ttl = 0});"
+	}, {
+		"trigger": "Redis.setNX(Buffer key, Buffer value, Long ttl = 0);",
+		"contents": "Redis.setNX(${1:Buffer key}, ${2:Buffer value}, ${3:Long ttl = 0});"
+	}, {
+		"trigger": "Redis.setXX(Buffer key, Buffer value, Long ttl = 0);",
+		"contents": "Redis.setXX(${1:Buffer key}, ${2:Buffer value}, ${3:Long ttl = 0});"
+	}, {
+		"trigger": "Redis.mset(Object kvs);",
+		"contents": "Redis.mset(${1:Object kvs});"
+	}, {
+		"trigger": "Redis.mset(...);",
+		"contents": "Redis.mset(${1:...});"
+	}, {
+		"trigger": "Redis.msetNX(Object kvs);",
+		"contents": "Redis.msetNX(${1:Object kvs});"
+	}, {
+		"trigger": "Redis.msetNX(...);",
+		"contents": "Redis.msetNX(${1:...});"
+	}, {
+		"trigger": "Redis.append(Buffer key, Buffer value);",
+		"contents": "Redis.append(${1:Buffer key}, ${2:Buffer value});"
+	}, {
+		"trigger": "Redis.setRange(Buffer key, Integer offset, Buffer value);",
+		"contents": "Redis.setRange(${1:Buffer key}, ${2:Integer offset}, ${3:Buffer value});"
+	}, {
+		"trigger": "Redis.getRange(Buffer key, Integer start, Integer end);",
+		"contents": "Redis.getRange(${1:Buffer key}, ${2:Integer start}, ${3:Integer end});"
+	}, {
+		"trigger": "Redis.strlen(Buffer key);",
+		"contents": "Redis.strlen(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.bitcount(Buffer key, Integer start = 0, Integer end = -1);",
+		"contents": "Redis.bitcount(${1:Buffer key}, ${2:Integer start = 0}, ${3:Integer end = -1});"
+	}, {
+		"trigger": "Redis.get(Buffer key);",
+		"contents": "Redis.get(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.mget(Array keys);",
+		"contents": "Redis.mget(${1:Array keys});"
+	}, {
+		"trigger": "Redis.mget(...);",
+		"contents": "Redis.mget(${1:...});"
+	}, {
+		"trigger": "Redis.getset(Buffer key, Buffer value);",
+		"contents": "Redis.getset(${1:Buffer key}, ${2:Buffer value});"
+	}, {
+		"trigger": "Redis.decr(Buffer key, Long num = 1);",
+		"contents": "Redis.decr(${1:Buffer key}, ${2:Long num = 1});"
+	}, {
+		"trigger": "Redis.incr(Buffer key, Long num = 1);",
+		"contents": "Redis.incr(${1:Buffer key}, ${2:Long num = 1});"
+	}, {
+		"trigger": "Redis.setBit(Buffer key, Integer offset, Integer value);",
+		"contents": "Redis.setBit(${1:Buffer key}, ${2:Integer offset}, ${3:Integer value});"
+	}, {
+		"trigger": "Redis.getBit(Buffer key, Integer offset);",
+		"contents": "Redis.getBit(${1:Buffer key}, ${2:Integer offset});"
+	}, {
+		"trigger": "Redis.exists(Buffer key);",
+		"contents": "Redis.exists(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.type(Buffer key);",
+		"contents": "Redis.type(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.keys(String pattern);",
+		"contents": "Redis.keys(${1:String pattern});"
+	}, {
+		"trigger": "Redis.del(Array keys);",
+		"contents": "Redis.del(${1:Array keys});"
+	}, {
+		"trigger": "Redis.del(...);",
+		"contents": "Redis.del(${1:...});"
+	}, {
+		"trigger": "Redis.expire(Buffer key, Long ttl);",
+		"contents": "Redis.expire(${1:Buffer key}, ${2:Long ttl});"
+	}, {
+		"trigger": "Redis.ttl(Buffer key);",
+		"contents": "Redis.ttl(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.persist(Buffer key);",
+		"contents": "Redis.persist(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.rename(Buffer key, Buffer newkey);",
+		"contents": "Redis.rename(${1:Buffer key}, ${2:Buffer newkey});"
+	}, {
+		"trigger": "Redis.renameNX(Buffer key, Buffer newkey);",
+		"contents": "Redis.renameNX(${1:Buffer key}, ${2:Buffer newkey});"
+	}, {
+		"trigger": "Redis.sub(Buffer channel, Function func);",
+		"contents": "Redis.sub(${1:Buffer channel}, ${2:Function func});"
+	}, {
+		"trigger": "Redis.sub(Object map);",
+		"contents": "Redis.sub(${1:Object map});"
+	}, {
+		"trigger": "Redis.unsub(Buffer channel);",
+		"contents": "Redis.unsub(${1:Buffer channel});"
+	}, {
+		"trigger": "Redis.unsub(Buffer channel, Function func);",
+		"contents": "Redis.unsub(${1:Buffer channel}, ${2:Function func});"
+	}, {
+		"trigger": "Redis.unsub(Array channels);",
+		"contents": "Redis.unsub(${1:Array channels});"
+	}, {
+		"trigger": "Redis.unsub(Object map);",
+		"contents": "Redis.unsub(${1:Object map});"
+	}, {
+		"trigger": "Redis.psub(String pattern, Function func);",
+		"contents": "Redis.psub(${1:String pattern}, ${2:Function func});"
+	}, {
+		"trigger": "Redis.psub(Object map);",
+		"contents": "Redis.psub(${1:Object map});"
+	}, {
+		"trigger": "Redis.unpsub(String pattern);",
+		"contents": "Redis.unpsub(${1:String pattern});"
+	}, {
+		"trigger": "Redis.unpsub(String pattern, Function func);",
+		"contents": "Redis.unpsub(${1:String pattern}, ${2:Function func});"
+	}, {
+		"trigger": "Redis.unpsub(Array patterns);",
+		"contents": "Redis.unpsub(${1:Array patterns});"
+	}, {
+		"trigger": "Redis.unpsub(Object map);",
+		"contents": "Redis.unpsub(${1:Object map});"
+	}, {
+		"trigger": "Redis.onsuberror(Function func);",
+		"contents": "Redis.onsuberror(${1:Function func});"
+	}, {
+		"trigger": "Redis.pub(Buffer channel, Buffer message);",
+		"contents": "Redis.pub(${1:Buffer channel}, ${2:Buffer message});"
+	}, {
+		"trigger": "Redis.getHash(Buffer key);",
+		"contents": "Redis.getHash(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.getList(Buffer key);",
+		"contents": "Redis.getList(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.getSet(Buffer key);",
+		"contents": "Redis.getSet(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.getSortedSet(Buffer key);",
+		"contents": "Redis.getSortedSet(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.dump(Buffer key);",
+		"contents": "Redis.dump(${1:Buffer key});"
+	}, {
+		"trigger": "Redis.restore(Buffer key, Buffer data, Long ttl = 0);",
+		"contents": "Redis.restore(${1:Buffer key}, ${2:Buffer data}, ${3:Long ttl = 0});"
+	}, {
+		"trigger": "Redis.close();"
+	}, {
+		"trigger": "RedisHash"
+	}, {
+		"trigger": "RedisHash.set(Buffer field, Buffer value);",
+		"contents": "RedisHash.set(${1:Buffer field}, ${2:Buffer value});"
+	}, {
+		"trigger": "RedisHash.setNX(Buffer field, Buffer value);",
+		"contents": "RedisHash.setNX(${1:Buffer field}, ${2:Buffer value});"
+	}, {
+		"trigger": "RedisHash.mset(Object kvs);",
+		"contents": "RedisHash.mset(${1:Object kvs});"
+	}, {
+		"trigger": "RedisHash.mset(...);",
+		"contents": "RedisHash.mset(${1:...});"
+	}, {
+		"trigger": "RedisHash.get(Buffer field);",
+		"contents": "RedisHash.get(${1:Buffer field});"
+	}, {
+		"trigger": "RedisHash.mget(Array fields);",
+		"contents": "RedisHash.mget(${1:Array fields});"
+	}, {
+		"trigger": "RedisHash.mget(...);",
+		"contents": "RedisHash.mget(${1:...});"
+	}, {
+		"trigger": "RedisHash.incr(Buffer field, Long num = 1);",
+		"contents": "RedisHash.incr(${1:Buffer field}, ${2:Long num = 1});"
+	}, {
+		"trigger": "RedisHash.getAll();"
+	}, {
+		"trigger": "RedisHash.keys();"
+	}, {
+		"trigger": "RedisHash.len();"
+	}, {
+		"trigger": "RedisHash.exists(Buffer field);",
+		"contents": "RedisHash.exists(${1:Buffer field});"
+	}, {
+		"trigger": "RedisHash.del(Array fields);",
+		"contents": "RedisHash.del(${1:Array fields});"
+	}, {
+		"trigger": "RedisHash.del(...);",
+		"contents": "RedisHash.del(${1:...});"
+	}, {
+		"trigger": "RedisList"
+	}, {
+		"trigger": "RedisList.push(Array values);",
+		"contents": "RedisList.push(${1:Array values});"
+	}, {
+		"trigger": "RedisList.push(...);",
+		"contents": "RedisList.push(${1:...});"
+	}, {
+		"trigger": "RedisList.pop();"
+	}, {
+		"trigger": "RedisList.rpush(Array values);",
+		"contents": "RedisList.rpush(${1:Array values});"
+	}, {
+		"trigger": "RedisList.rpush(...);",
+		"contents": "RedisList.rpush(${1:...});"
+	}, {
+		"trigger": "RedisList.rpop();"
+	}, {
+		"trigger": "RedisList.set(Integer index, Buffer value);",
+		"contents": "RedisList.set(${1:Integer index}, ${2:Buffer value});"
+	}, {
+		"trigger": "RedisList.get(Integer index);",
+		"contents": "RedisList.get(${1:Integer index});"
+	}, {
+		"trigger": "RedisList.insertBefore(Buffer pivot, Buffer value);",
+		"contents": "RedisList.insertBefore(${1:Buffer pivot}, ${2:Buffer value});"
+	}, {
+		"trigger": "RedisList.insertAfter(Buffer pivot, Buffer value);",
+		"contents": "RedisList.insertAfter(${1:Buffer pivot}, ${2:Buffer value});"
+	}, {
+		"trigger": "RedisList.remove(Integer count, Buffer value);",
+		"contents": "RedisList.remove(${1:Integer count}, ${2:Buffer value});"
+	}, {
+		"trigger": "RedisList.trim(Integer start, Integer stop);",
+		"contents": "RedisList.trim(${1:Integer start}, ${2:Integer stop});"
+	}, {
+		"trigger": "RedisList.len();"
+	}, {
+		"trigger": "RedisList.range(Integer start, Integer stop);",
+		"contents": "RedisList.range(${1:Integer start}, ${2:Integer stop});"
+	}, {
+		"trigger": "RedisSet"
+	}, {
+		"trigger": "RedisSet.add(Array members);",
+		"contents": "RedisSet.add(${1:Array members});"
+	}, {
+		"trigger": "RedisSet.add(...);",
+		"contents": "RedisSet.add(${1:...});"
+	}, {
+		"trigger": "RedisSet.remove(Array members);",
+		"contents": "RedisSet.remove(${1:Array members});"
+	}, {
+		"trigger": "RedisSet.remove(...);",
+		"contents": "RedisSet.remove(${1:...});"
+	}, {
+		"trigger": "RedisSet.len();"
+	}, {
+		"trigger": "RedisSet.exists(Buffer member);",
+		"contents": "RedisSet.exists(${1:Buffer member});"
+	}, {
+		"trigger": "RedisSet.members();"
+	}, {
+		"trigger": "RedisSet.pop();"
+	}, {
+		"trigger": "RedisSet.randMember();"
+	}, {
+		"trigger": "RedisSet.randMember(Integer count);",
+		"contents": "RedisSet.randMember(${1:Integer count});"
+	}, {
+		"trigger": "RedisSortedSet"
+	}, {
+		"trigger": "RedisSortedSet.add(Object sms);",
+		"contents": "RedisSortedSet.add(${1:Object sms});"
+	}, {
+		"trigger": "RedisSortedSet.add(...);",
+		"contents": "RedisSortedSet.add(${1:...});"
+	}, {
+		"trigger": "RedisSortedSet.score(Buffer member);",
+		"contents": "RedisSortedSet.score(${1:Buffer member});"
+	}, {
+		"trigger": "RedisSortedSet.incr(Buffer member, Long num = 1);",
+		"contents": "RedisSortedSet.incr(${1:Buffer member}, ${2:Long num = 1});"
+	}, {
+		"trigger": "RedisSortedSet.remove(Array members);",
+		"contents": "RedisSortedSet.remove(${1:Array members});"
+	}, {
+		"trigger": "RedisSortedSet.remove(...);",
+		"contents": "RedisSortedSet.remove(${1:...});"
+	}, {
+		"trigger": "RedisSortedSet.len();"
+	}, {
+		"trigger": "RedisSortedSet.count(Integer min, Integer max);",
+		"contents": "RedisSortedSet.count(${1:Integer min}, ${2:Integer max});"
+	}, {
+		"trigger": "RedisSortedSet.range(Integer start, Integer stop, Boolean withScores = false);",
+		"contents": "RedisSortedSet.range(${1:Integer start}, ${2:Integer stop}, ${3:Boolean withScores = false});"
+	}, {
+		"trigger": "RedisSortedSet.rangeRev(Integer start, Integer stop, Boolean withScores = false);",
+		"contents": "RedisSortedSet.rangeRev(${1:Integer start}, ${2:Integer stop}, ${3:Boolean withScores = false});"
+	}, {
+		"trigger": "RedisSortedSet.rank(Buffer member);",
+		"contents": "RedisSortedSet.rank(${1:Buffer member});"
+	}, {
+		"trigger": "RedisSortedSet.rankRev(Buffer member);",
+		"contents": "RedisSortedSet.rankRev(${1:Buffer member});"
+	}, {
+		"trigger": "Regex"
+	}, {
+		"trigger": "Regex.exec(String str);",
+		"contents": "Regex.exec(${1:String str});"
+	}, {
+		"trigger": "Regex.test(String str);",
+		"contents": "Regex.test(${1:String str});"
+	}, {
+		"trigger": "Regex.lastIndex"
+	}, {
+		"trigger": "Regex.global"
+	}, {
+		"trigger": "Regex.ignoreCase"
+	}, {
+		"trigger": "Regex.multiline"
+	}, {
+		"trigger": "Routing"
+	}, {
+		"trigger": "Routing.Routing(Object map);",
+		"contents": "Routing.Routing(${1:Object map});"
+	}, {
+		"trigger": "Routing.append(Object map);",
+		"contents": "Routing.append(${1:Object map});"
+	}, {
+		"trigger": "Routing.append(String pattern, Value hdlr);",
+		"contents": "Routing.append(${1:String pattern}, ${2:Value hdlr});"
+	}, {
+		"trigger": "rpc"
+	}, {
+		"trigger": "rpc.json(Value hdlr);",
+		"contents": "rpc.json(${1:Value hdlr});"
+	}, {
+		"trigger": "SandBox"
+	}, {
+		"trigger": "SandBox.SandBox(Object mods, String name = \"\");",
+		"contents": "SandBox.SandBox(${1:Object mods}, ${2:String name = \"\"});"
+	}, {
+		"trigger": "SandBox.SandBox(Object mods, Function require, String name = \"\");",
+		"contents": "SandBox.SandBox(${1:Object mods}, ${2:Function require}, ${3:String name = \"\"});"
+	}, {
+		"trigger": "SandBox.add(String id, Value mod);",
+		"contents": "SandBox.add(${1:String id}, ${2:Value mod});"
+	}, {
+		"trigger": "SandBox.add(Object mods);",
+		"contents": "SandBox.add(${1:Object mods});"
+	}, {
+		"trigger": "SandBox.addScript(String srcname, String script);",
+		"contents": "SandBox.addScript(${1:String srcname}, ${2:String script});"
+	}, {
+		"trigger": "SandBox.remove(String id);",
+		"contents": "SandBox.remove(${1:String id});"
+	}, {
+		"trigger": "SandBox.run(String fname);",
+		"contents": "SandBox.run(${1:String fname});"
+	}, {
+		"trigger": "SandBox.require(String id);",
+		"contents": "SandBox.require(${1:String id});"
+	}, {
+		"trigger": "SeekableStream"
+	}, {
+		"trigger": "SeekableStream.seek(Long offset, Integer whence);",
+		"contents": "SeekableStream.seek(${1:Long offset}, ${2:Integer whence});"
+	}, {
+		"trigger": "SeekableStream.tell();"
+	}, {
+		"trigger": "SeekableStream.rewind();"
+	}, {
+		"trigger": "SeekableStream.size();"
+	}, {
+		"trigger": "SeekableStream.readAll();"
+	}, {
+		"trigger": "SeekableStream.stat();"
+	}, {
+		"trigger": "Semaphore"
+	}, {
+		"trigger": "Semaphore.Semaphore(Integer value = 1);",
+		"contents": "Semaphore.Semaphore(${1:Integer value = 1});"
+	}, {
+		"trigger": "Semaphore.wait();"
+	}, {
+		"trigger": "Semaphore.post();"
+	}, {
+		"trigger": "Semaphore.trywait();"
+	}, {
+		"trigger": "Smtp"
+	}, {
+		"trigger": "Smtp.Smtp();"
+	}, {
+		"trigger": "Smtp.connect(String host, Integer port, Integer family = net.AF_INET);",
+		"contents": "Smtp.connect(${1:String host}, ${2:Integer port}, ${3:Integer family = net.AF_INET});"
+	}, {
+		"trigger": "Smtp.command(String cmd, String arg);",
+		"contents": "Smtp.command(${1:String cmd}, ${2:String arg});"
+	}, {
+		"trigger": "Smtp.hello(String hostname = \"localhost\");",
+		"contents": "Smtp.hello(${1:String hostname = \"localhost\"});"
+	}, {
+		"trigger": "Smtp.login(String username, String password);",
+		"contents": "Smtp.login(${1:String username}, ${2:String password});"
+	}, {
+		"trigger": "Smtp.from(String address);",
+		"contents": "Smtp.from(${1:String address});"
+	}, {
+		"trigger": "Smtp.to(String address);",
+		"contents": "Smtp.to(${1:String address});"
+	}, {
+		"trigger": "Smtp.data(String txt);",
+		"contents": "Smtp.data(${1:String txt});"
+	}, {
+		"trigger": "Smtp.quit();"
+	}, {
+		"trigger": "Smtp.socket"
+	}, {
+		"trigger": "Socket"
+	}, {
+		"trigger": "Socket.Socket(Integer family = net.AF_INET, Integer type = net.SOCK_STREAM);",
+		"contents": "Socket.Socket(${1:Integer family = net.AF_INET}, ${2:Integer type = net.SOCK_STREAM});"
+	}, {
+		"trigger": "Socket.family"
+	}, {
+		"trigger": "Socket.type"
+	}, {
+		"trigger": "Socket.remoteAddress"
+	}, {
+		"trigger": "Socket.remotePort"
+	}, {
+		"trigger": "Socket.localAddress"
+	}, {
+		"trigger": "Socket.localPort"
+	}, {
+		"trigger": "Socket.connect(String host, Integer port);",
+		"contents": "Socket.connect(${1:String host}, ${2:Integer port});"
+	}, {
+		"trigger": "Socket.bind(Integer port, Boolean allowIPv4 = true);",
+		"contents": "Socket.bind(${1:Integer port}, ${2:Boolean allowIPv4 = true});"
+	}, {
+		"trigger": "Socket.bind(String addr, Integer port, Boolean allowIPv4 = true);",
+		"contents": "Socket.bind(${1:String addr}, ${2:Integer port}, ${3:Boolean allowIPv4 = true});"
+	}, {
+		"trigger": "Socket.listen(Integer backlog = 120);",
+		"contents": "Socket.listen(${1:Integer backlog = 120});"
+	}, {
+		"trigger": "Socket.accept();"
+	}, {
+		"trigger": "Socket.recv(Integer bytes = -1);",
+		"contents": "Socket.recv(${1:Integer bytes = -1});"
+	}, {
+		"trigger": "Socket.recvFrom(Integer bytes = -1);",
+		"contents": "Socket.recvFrom(${1:Integer bytes = -1});"
+	}, {
+		"trigger": "Socket.send(Buffer data);",
+		"contents": "Socket.send(${1:Buffer data});"
+	}, {
+		"trigger": "Socket.sendto(Buffer data, String host, Integer port);",
+		"contents": "Socket.sendto(${1:Buffer data}, ${2:String host}, ${3:Integer port});"
+	}, {
+		"trigger": "SQLite"
+	}, {
+		"trigger": "SQLite.fileName"
+	}, {
+		"trigger": "SQLite.timeout"
+	}, {
+		"trigger": "SQLite.backup(String fileName);",
+		"contents": "SQLite.backup(${1:String fileName});"
+	}, {
+		"trigger": "ssl"
+	}, {
+		"trigger": "ssl.VERIFY_NONE"
+	}, {
+		"trigger": "ssl.VERIFY_OPTIONAL"
+	}, {
+		"trigger": "ssl.VERIFY_REQUIRED"
+	}, {
+		"trigger": "ssl.BADCERT_EXPIRED"
+	}, {
+		"trigger": "ssl.BADCERT_REVOKED"
+	}, {
+		"trigger": "ssl.BADCERT_CN_MISMATCH"
+	}, {
+		"trigger": "ssl.BADCERT_NOT_TRUSTED"
+	}, {
+		"trigger": "new ssl.Socket();"
+	}, {
+		"trigger": "new ssl.Handler();"
+	}, {
+		"trigger": "new ssl.Server();"
+	}, {
+		"trigger": "ssl.connect(String url);",
+		"contents": "ssl.connect(${1:String url});"
+	}, {
+		"trigger": "ssl.readonly"
+	}, {
+		"trigger": "ssl.Integer"
+	}, {
+		"trigger": "SslHandler"
+	}, {
+		"trigger": "SslHandler.SslHandler(Array certs, Value hdlr);",
+		"contents": "SslHandler.SslHandler(${1:Array certs}, ${2:Value hdlr});"
+	}, {
+		"trigger": "SslHandler.SslHandler(X509Cert crt, PKey key, Value hdlr);",
+		"contents": "SslHandler.SslHandler(${1:X509Cert crt}, ${2:PKey key}, ${3:Value hdlr});"
+	}, {
+		"trigger": "SslHandler.verification"
+	}, {
+		"trigger": "SslHandler.ca"
+	}, {
+		"trigger": "SslHandler.handler"
+	}, {
+		"trigger": "SslServer"
+	}, {
+		"trigger": "SslServer.SslServer(Array certs, Integer port, Value listener);",
+		"contents": "SslServer.SslServer(${1:Array certs}, ${2:Integer port}, ${3:Value listener});"
+	}, {
+		"trigger": "SslServer.SslServer(Array certs, String addr, Integer port, Value listener);",
+		"contents": "SslServer.SslServer(${1:Array certs}, ${2:String addr}, ${3:Integer port}, ${4:Value listener});"
+	}, {
+		"trigger": "SslServer.SslServer(X509Cert crt, PKey key, Integer port, Value listener);",
+		"contents": "SslServer.SslServer(${1:X509Cert crt}, ${2:PKey key}, ${3:Integer port}, ${4:Value listener});"
+	}, {
+		"trigger": "SslServer.SslServer(X509Cert crt, PKey key, String addr, Integer port, Value listener);",
+		"contents": "SslServer.SslServer(${1:X509Cert crt}, ${2:PKey key}, ${3:String addr}, ${4:Integer port}, ${5:Value listener});"
+	}, {
+		"trigger": "SslServer.verification"
+	}, {
+		"trigger": "SslServer.ca"
+	}, {
+		"trigger": "SslSocket"
+	}, {
+		"trigger": "SslSocket.SslSocket(Array certs = [ ]);",
+		"contents": "SslSocket.SslSocket(${1:Array certs = [ ]});"
+	}, {
+		"trigger": "SslSocket.SslSocket(X509Cert crt, PKey key);",
+		"contents": "SslSocket.SslSocket(${1:X509Cert crt}, ${2:PKey key});"
+	}, {
+		"trigger": "SslSocket.verification"
+	}, {
+		"trigger": "SslSocket.ca"
+	}, {
+		"trigger": "SslSocket.peerCert"
+	}, {
+		"trigger": "SslSocket.connect(Stream s, String server_name = \"\");",
+		"contents": "SslSocket.connect(${1:Stream s}, ${2:String server_name = \"\"});"
+	}, {
+		"trigger": "SslSocket.accept(Stream s);",
+		"contents": "SslSocket.accept(${1:Stream s});"
+	}, {
+		"trigger": "Stat"
+	}, {
+		"trigger": "Stat.name"
+	}, {
+		"trigger": "Stat.size"
+	}, {
+		"trigger": "Stat.mode"
+	}, {
+		"trigger": "Stat.mtime"
+	}, {
+		"trigger": "Stat.atime"
+	}, {
+		"trigger": "Stat.ctime"
+	}, {
+		"trigger": "Stat.isWritable();"
+	}, {
+		"trigger": "Stat.isReadable();"
+	}, {
+		"trigger": "Stat.isExecutable();"
+	}, {
+		"trigger": "Stat.isHidden();"
+	}, {
+		"trigger": "Stat.isDirectory();"
+	}, {
+		"trigger": "Stat.isFile();"
+	}, {
+		"trigger": "Stat.isSymbolicLink();"
+	}, {
+		"trigger": "Stat.isMemory();"
+	}, {
+		"trigger": "Stat.isSocket();"
+	}, {
+		"trigger": "Stats"
+	}, {
+		"trigger": "Stats.Stats(Array keys);",
+		"contents": "Stats.Stats(${1:Array keys});"
+	}, {
+		"trigger": "Stats.Stats(Array staticKeys, Array keys);",
+		"contents": "Stats.Stats(${1:Array staticKeys}, ${2:Array keys});"
+	}, {
+		"trigger": "Stats.inc(String key);",
+		"contents": "Stats.inc(${1:String key});"
+	}, {
+		"trigger": "Stats.dec(String key);",
+		"contents": "Stats.dec(${1:String key});"
+	}, {
+		"trigger": "Stats.add(String key, Integer value);",
+		"contents": "Stats.add(${1:String key}, ${2:Integer value});"
+	}, {
+		"trigger": "Stats.reset();"
+	}, {
+		"trigger": "Stats.uptime();"
+	}, {
+		"trigger": "Stats.operator"
+	}, {
+		"trigger": "Stream"
+	}, {
+		"trigger": "Stream.read(Integer bytes = -1);",
+		"contents": "Stream.read(${1:Integer bytes = -1});"
+	}, {
+		"trigger": "Stream.write(Buffer data);",
+		"contents": "Stream.write(${1:Buffer data});"
+	}, {
+		"trigger": "Stream.close();"
+	}, {
+		"trigger": "Stream.copyTo(Stream stm, Long bytes = -1);",
+		"contents": "Stream.copyTo(${1:Stream stm}, ${2:Long bytes = -1});"
+	}, {
+		"trigger": "TcpServer"
+	}, {
+		"trigger": "TcpServer.TcpServer(Integer port, Value listener);",
+		"contents": "TcpServer.TcpServer(${1:Integer port}, ${2:Value listener});"
+	}, {
+		"trigger": "TcpServer.TcpServer(String addr, Integer port, Value listener);",
+		"contents": "TcpServer.TcpServer(${1:String addr}, ${2:Integer port}, ${3:Value listener});"
+	}, {
+		"trigger": "TcpServer.run();"
+	}, {
+		"trigger": "TcpServer.asyncRun();"
+	}, {
+		"trigger": "TcpServer.stop();"
+	}, {
+		"trigger": "TcpServer.socket"
+	}, {
+		"trigger": "TcpServer.handler"
+	}, {
+		"trigger": "TcpServer.stats"
+	}, {
+		"trigger": "test"
+	}, {
+		"trigger": "test.BDD"
+	}, {
+		"trigger": "test.TDD"
+	}, {
+		"trigger": "test.describe(String name, Function block);",
+		"contents": "test.describe(${1:String name}, ${2:Function block});"
+	}, {
+		"trigger": "test.xdescribe(String name, Function block);",
+		"contents": "test.xdescribe(${1:String name}, ${2:Function block});"
+	}, {
+		"trigger": "test.it(String name, Function block);",
+		"contents": "test.it(${1:String name}, ${2:Function block});"
+	}, {
+		"trigger": "test.xit(String name, Function block);",
+		"contents": "test.xit(${1:String name}, ${2:Function block});"
+	}, {
+		"trigger": "test.before(Function func);",
+		"contents": "test.before(${1:Function func});"
+	}, {
+		"trigger": "test.after(Function func);",
+		"contents": "test.after(${1:Function func});"
+	}, {
+		"trigger": "test.beforeEach(Function func);",
+		"contents": "test.beforeEach(${1:Function func});"
+	}, {
+		"trigger": "test.afterEach(Function func);",
+		"contents": "test.afterEach(${1:Function func});"
+	}, {
+		"trigger": "test.run(Integer loglevel = console.ERROR);",
+		"contents": "test.run(${1:Integer loglevel = console.ERROR});"
+	}, {
+		"trigger": "test.readonly"
+	}, {
+		"trigger": "test.expect(Value actual, String msg = \"\");",
+		"contents": "test.expect(${1:Value actual}, ${2:String msg = \"\"});"
+	}, {
+		"trigger": "test.setup(Integer mode = BDD);",
+		"contents": "test.setup(${1:Integer mode = BDD});"
+	}, {
+		"trigger": "test.Integer"
+	}, {
+		"trigger": "TextColor"
+	}, {
+		"trigger": "TextColor.notice"
+	}, {
+		"trigger": "TextColor.warn"
+	}, {
+		"trigger": "TextColor.error"
+	}, {
+		"trigger": "TextColor.highLight"
+	}, {
+		"trigger": "Trigger"
+	}, {
+		"trigger": "Trigger.Trigger();"
+	}, {
+		"trigger": "Trigger.on(String ev, Function func);",
+		"contents": "Trigger.on(${1:String ev}, ${2:Function func});"
+	}, {
+		"trigger": "Trigger.on(Object map);",
+		"contents": "Trigger.on(${1:Object map});"
+	}, {
+		"trigger": "Trigger.once(String ev, Function func);",
+		"contents": "Trigger.once(${1:String ev}, ${2:Function func});"
+	}, {
+		"trigger": "Trigger.once(Object map);",
+		"contents": "Trigger.once(${1:Object map});"
+	}, {
+		"trigger": "Trigger.off(String ev, Function func);",
+		"contents": "Trigger.off(${1:String ev}, ${2:Function func});"
+	}, {
+		"trigger": "Trigger.off(String ev);",
+		"contents": "Trigger.off(${1:String ev});"
+	}, {
+		"trigger": "Trigger.off(Object map);",
+		"contents": "Trigger.off(${1:Object map});"
+	}, {
+		"trigger": "Trigger.trigger(String ev, ...);",
+		"contents": "Trigger.trigger(${1:String ev}, ${2:...});"
+	}, {
+		"trigger": "Url"
+	}, {
+		"trigger": "Url.Url(Object args);",
+		"contents": "Url.Url(${1:Object args});"
+	}, {
+		"trigger": "Url.Url(String url = \"\");",
+		"contents": "Url.Url(${1:String url = \"\"});"
+	}, {
+		"trigger": "Url.parse(String url);",
+		"contents": "Url.parse(${1:String url});"
+	}, {
+		"trigger": "Url.format(Object args);",
+		"contents": "Url.format(${1:Object args});"
+	}, {
+		"trigger": "Url.resolve(String url);",
+		"contents": "Url.resolve(${1:String url});"
+	}, {
+		"trigger": "Url.normalize();"
+	}, {
+		"trigger": "Url.href"
+	}, {
+		"trigger": "Url.protocol"
+	}, {
+		"trigger": "Url.slashes"
+	}, {
+		"trigger": "Url.auth"
+	}, {
+		"trigger": "Url.username"
+	}, {
+		"trigger": "Url.password"
+	}, {
+		"trigger": "Url.host"
+	}, {
+		"trigger": "Url.hostname"
+	}, {
+		"trigger": "Url.port"
+	}, {
+		"trigger": "Url.path"
+	}, {
+		"trigger": "Url.pathname"
+	}, {
+		"trigger": "Url.search"
+	}, {
+		"trigger": "Url.query"
+	}, {
+		"trigger": "Url.hash"
+	}, {
+		"trigger": "util"
+	}, {
+		"trigger": "util.format(String fmt, ...);",
+		"contents": "util.format(${1:String fmt}, ${2:...});"
+	}, {
+		"trigger": "util.format(...);",
+		"contents": "util.format(${1:...});"
+	}, {
+		"trigger": "util.isEmpty(Value v);",
+		"contents": "util.isEmpty(${1:Value v});"
+	}, {
+		"trigger": "util.isArray(Value v);",
+		"contents": "util.isArray(${1:Value v});"
+	}, {
+		"trigger": "util.isBoolean(Value v);",
+		"contents": "util.isBoolean(${1:Value v});"
+	}, {
+		"trigger": "util.isNull(Value v);",
+		"contents": "util.isNull(${1:Value v});"
+	}, {
+		"trigger": "util.isNullOrUndefined(Value v);",
+		"contents": "util.isNullOrUndefined(${1:Value v});"
+	}, {
+		"trigger": "util.isNumber(Value v);",
+		"contents": "util.isNumber(${1:Value v});"
+	}, {
+		"trigger": "util.isString(Value v);",
+		"contents": "util.isString(${1:Value v});"
+	}, {
+		"trigger": "util.isUndefined(Value v);",
+		"contents": "util.isUndefined(${1:Value v});"
+	}, {
+		"trigger": "util.isRegExp(Value v);",
+		"contents": "util.isRegExp(${1:Value v});"
+	}, {
+		"trigger": "util.isObject(Value v);",
+		"contents": "util.isObject(${1:Value v});"
+	}, {
+		"trigger": "util.isDate(Value v);",
+		"contents": "util.isDate(${1:Value v});"
+	}, {
+		"trigger": "util.isFunction(Value v);",
+		"contents": "util.isFunction(${1:Value v});"
+	}, {
+		"trigger": "util.isBuffer(Value v);",
+		"contents": "util.isBuffer(${1:Value v});"
+	}, {
+		"trigger": "util.has(Value v, String key);",
+		"contents": "util.has(${1:Value v}, ${2:String key});"
+	}, {
+		"trigger": "util.keys(Value v);",
+		"contents": "util.keys(${1:Value v});"
+	}, {
+		"trigger": "util.values(Value v);",
+		"contents": "util.values(${1:Value v});"
+	}, {
+		"trigger": "util.clone(Value v);",
+		"contents": "util.clone(${1:Value v});"
+	}, {
+		"trigger": "util.extend(Value v, ...);",
+		"contents": "util.extend(${1:Value v}, ${2:...});"
+	}, {
+		"trigger": "util.pick(Value v, ...);",
+		"contents": "util.pick(${1:Value v}, ${2:...});"
+	}, {
+		"trigger": "util.omit(Value v, ...);",
+		"contents": "util.omit(${1:Value v}, ${2:...});"
+	}, {
+		"trigger": "util.first(Value v);",
+		"contents": "util.first(${1:Value v});"
+	}, {
+		"trigger": "util.first(Value v, Integer n);",
+		"contents": "util.first(${1:Value v}, ${2:Integer n});"
+	}, {
+		"trigger": "util.last(Value v);",
+		"contents": "util.last(${1:Value v});"
+	}, {
+		"trigger": "util.last(Value v, Integer n);",
+		"contents": "util.last(${1:Value v}, ${2:Integer n});"
+	}, {
+		"trigger": "util.unique(Value v, Boolean sorted = false);",
+		"contents": "util.unique(${1:Value v}, ${2:Boolean sorted = false});"
+	}, {
+		"trigger": "util.union(...);",
+		"contents": "util.union(${1:...});"
+	}, {
+		"trigger": "util.intersection(...);",
+		"contents": "util.intersection(${1:...});"
+	}, {
+		"trigger": "util.flatten(Value arr, Boolean shallow = false);",
+		"contents": "util.flatten(${1:Value arr}, ${2:Boolean shallow = false});"
+	}, {
+		"trigger": "util.without(Value arr, ...);",
+		"contents": "util.without(${1:Value arr}, ${2:...});"
+	}, {
+		"trigger": "util.difference(Array list, ...);",
+		"contents": "util.difference(${1:Array list}, ${2:...});"
+	}, {
+		"trigger": "util.each(Value list, Function iterator, Value context = undefined);",
+		"contents": "util.each(${1:Value list}, ${2:Function iterator}, ${3:Value context = undefined});"
+	}, {
+		"trigger": "util.map(Value list, Function iterator, Value context = undefined);",
+		"contents": "util.map(${1:Value list}, ${2:Function iterator}, ${3:Value context = undefined});"
+	}, {
+		"trigger": "util.reduce(Value list, Function iterator, Value memo, Value context = undefined);",
+		"contents": "util.reduce(${1:Value list}, ${2:Function iterator}, ${3:Value memo}, ${4:Value context = undefined});"
+	}, {
+		"trigger": "new util.Stats();"
+	}, {
+		"trigger": "new util.LruCache();"
+	}, {
+		"trigger": "util.buildInfo();"
+	}, {
+		"trigger": "uuid"
+	}, {
+		"trigger": "uuid.DNS"
+	}, {
+		"trigger": "uuid.URL"
+	}, {
+		"trigger": "uuid.OID"
+	}, {
+		"trigger": "uuid.X509"
+	}, {
+		"trigger": "uuid.uuid(String s);",
+		"contents": "uuid.uuid(${1:String s});"
+	}, {
+		"trigger": "uuid.uuid(Buffer data);",
+		"contents": "uuid.uuid(${1:Buffer data});"
+	}, {
+		"trigger": "uuid.node();"
+	}, {
+		"trigger": "uuid.md5(Integer ns, String name);",
+		"contents": "uuid.md5(${1:Integer ns}, ${2:String name});"
+	}, {
+		"trigger": "uuid.random();"
+	}, {
+		"trigger": "uuid.sha1(Integer ns, String name);",
+		"contents": "uuid.sha1(${1:Integer ns}, ${2:String name});"
+	}, {
+		"trigger": "uuidValue"
+	}, {
+		"trigger": "uuidValue.data();"
+	}, {
+		"trigger": "uuidValue.detail();"
+	}, {
+		"trigger": "vm"
+	}, {
+		"trigger": "new vm.SandBox();"
+	}, {
+		"trigger": "X509Cert"
+	}, {
+		"trigger": "X509Cert.X509Cert();"
+	}, {
+		"trigger": "X509Cert.load(Buffer derCert);",
+		"contents": "X509Cert.load(${1:Buffer derCert});"
+	}, {
+		"trigger": "X509Cert.load(String txtCert);",
+		"contents": "X509Cert.load(${1:String txtCert});"
+	}, {
+		"trigger": "X509Cert.loadFile(String filename);",
+		"contents": "X509Cert.loadFile(${1:String filename});"
+	}, {
+		"trigger": "X509Cert.verify(X509Cert cert);",
+		"contents": "X509Cert.verify(${1:X509Cert cert});"
+	}, {
+		"trigger": "X509Cert.dump();"
+	}, {
+		"trigger": "X509Cert.clear();"
+	}, {
+		"trigger": "X509Cert.version"
+	}, {
+		"trigger": "X509Cert.serial"
+	}, {
+		"trigger": "X509Cert.issuer"
+	}, {
+		"trigger": "X509Cert.subject"
+	}, {
+		"trigger": "X509Cert.notBefore"
+	}, {
+		"trigger": "X509Cert.notAfter"
+	}, {
+		"trigger": "X509Cert.ca"
+	}, {
+		"trigger": "X509Cert.pathlen"
+	}, {
+		"trigger": "X509Cert.usage"
+	}, {
+		"trigger": "X509Cert.type"
+	}, {
+		"trigger": "X509Cert.publicKey"
+	}, {
+		"trigger": "X509Cert.next"
+	}, {
+		"trigger": "X509Crl"
+	}, {
+		"trigger": "X509Crl.X509Crl();"
+	}, {
+		"trigger": "X509Crl.load(Buffer derCrl);",
+		"contents": "X509Crl.load(${1:Buffer derCrl});"
+	}, {
+		"trigger": "X509Crl.load(String pemCrl);",
+		"contents": "X509Crl.load(${1:String pemCrl});"
+	}, {
+		"trigger": "X509Crl.loadFile(String filename);",
+		"contents": "X509Crl.loadFile(${1:String filename});"
+	}, {
+		"trigger": "X509Crl.dump();"
+	}, {
+		"trigger": "X509Crl.clear();"
+	}, {
+		"trigger": "X509Req"
+	}, {
+		"trigger": "X509Req.X509Req();"
+	}, {
+		"trigger": "X509Req.X509Req(String subject, PKey key, Integer hash = hash.SHA1);",
+		"contents": "X509Req.X509Req(${1:String subject}, ${2:PKey key}, ${3:Integer hash = hash.SHA1});"
+	}, {
+		"trigger": "X509Req.load(Buffer derReq);",
+		"contents": "X509Req.load(${1:Buffer derReq});"
+	}, {
+		"trigger": "X509Req.load(String pemReq);",
+		"contents": "X509Req.load(${1:String pemReq});"
+	}, {
+		"trigger": "X509Req.loadFile(String filename);",
+		"contents": "X509Req.loadFile(${1:String filename});"
+	}, {
+		"trigger": "X509Req.exportPem();"
+	}, {
+		"trigger": "X509Req.exportDer();"
+	}, {
+		"trigger": "X509Req.sign(String issuer, PKey key, Object opts = {});",
+		"contents": "X509Req.sign(${1:String issuer}, ${2:PKey key}, ${3:Object opts = {}});"
+	}, {
+		"trigger": "X509Req.subject"
+	}, {
+		"trigger": "X509Req.publicKey"
+	}, {
+		"trigger": "xml"
+	}, {
+		"trigger": "xml.ELEMENT_NODE"
+	}, {
+		"trigger": "xml.ATTRIBUTE_NODE"
+	}, {
+		"trigger": "xml.TEXT_NODE"
+	}, {
+		"trigger": "xml.CDATA_SECTION_NODE"
+	}, {
+		"trigger": "xml.PROCESSING_INSTRUCTION_NODE"
+	}, {
+		"trigger": "xml.COMMENT_NODE"
+	}, {
+		"trigger": "xml.DOCUMENT_NODE"
+	}, {
+		"trigger": "xml.DOCUMENT_TYPE_NODE"
+	}, {
+		"trigger": "new xml.Document();"
+	}, {
+		"trigger": "xml.parse(String source, String type = \"text/xml\");",
+		"contents": "xml.parse(${1:String source}, ${2:String type = \"text/xml\"});"
+	}, {
+		"trigger": "xml.parse(Buffer source, String type = \"text/xml\");",
+		"contents": "xml.parse(${1:Buffer source}, ${2:String type = \"text/xml\"});"
+	}, {
+		"trigger": "xml.serialize(XmlNode node);",
+		"contents": "xml.serialize(${1:XmlNode node});"
+	}, {
+		"trigger": "XmlAttr"
+	}, {
+		"trigger": "XmlAttr.localName"
+	}, {
+		"trigger": "XmlAttr.value"
+	}, {
+		"trigger": "XmlAttr.name"
+	}, {
+		"trigger": "XmlAttr.namespaceURI"
+	}, {
+		"trigger": "XmlAttr.prefix"
+	}, {
+		"trigger": "XmlAttr.nodeName"
+	}, {
+		"trigger": "XmlAttr.nodeValue"
+	}, {
+		"trigger": "XmlCharacterData"
+	}, {
+		"trigger": "XmlCharacterData.data"
+	}, {
+		"trigger": "XmlCharacterData.length"
+	}, {
+		"trigger": "XmlCharacterData.substringData(Integer offset, Integer count);",
+		"contents": "XmlCharacterData.substringData(${1:Integer offset}, ${2:Integer count});"
+	}, {
+		"trigger": "XmlCharacterData.appendData(String arg);",
+		"contents": "XmlCharacterData.appendData(${1:String arg});"
+	}, {
+		"trigger": "XmlCharacterData.insertData(Integer offset, String arg);",
+		"contents": "XmlCharacterData.insertData(${1:Integer offset}, ${2:String arg});"
+	}, {
+		"trigger": "XmlCharacterData.deleteData(Integer offset, Integer count);",
+		"contents": "XmlCharacterData.deleteData(${1:Integer offset}, ${2:Integer count});"
+	}, {
+		"trigger": "XmlCharacterData.replaceData(Integer offset, Integer count, String arg);",
+		"contents": "XmlCharacterData.replaceData(${1:Integer offset}, ${2:Integer count}, ${3:String arg});"
+	}, {
+		"trigger": "XmlDocument"
+	}, {
+		"trigger": "XmlDocument.XmlDocument(String type = \"text/xml\");",
+		"contents": "XmlDocument.XmlDocument(${1:String type = \"text/xml\"});"
+	}, {
+		"trigger": "XmlDocument.load(String source);",
+		"contents": "XmlDocument.load(${1:String source});"
+	}, {
+		"trigger": "XmlDocument.load(Buffer source);",
+		"contents": "XmlDocument.load(${1:Buffer source});"
+	}, {
+		"trigger": "XmlDocument.inputEncoding"
+	}, {
+		"trigger": "XmlDocument.xmlStandalone"
+	}, {
+		"trigger": "XmlDocument.xmlVersion"
+	}, {
+		"trigger": "XmlDocument.doctype"
+	}, {
+		"trigger": "XmlDocument.documentElement"
+	}, {
+		"trigger": "XmlDocument.head"
+	}, {
+		"trigger": "XmlDocument.title"
+	}, {
+		"trigger": "XmlDocument.body"
+	}, {
+		"trigger": "XmlDocument.getElementsByTagName(String tagName);",
+		"contents": "XmlDocument.getElementsByTagName(${1:String tagName});"
+	}, {
+		"trigger": "XmlDocument.getElementsByTagNameNS(String namespaceURI, String localName);",
+		"contents": "XmlDocument.getElementsByTagNameNS(${1:String namespaceURI}, ${2:String localName});"
+	}, {
+		"trigger": "XmlDocument.createElement(String tagName);",
+		"contents": "XmlDocument.createElement(${1:String tagName});"
+	}, {
+		"trigger": "XmlDocument.createElementNS(String namespaceURI, String qualifiedName);",
+		"contents": "XmlDocument.createElementNS(${1:String namespaceURI}, ${2:String qualifiedName});"
+	}, {
+		"trigger": "XmlDocument.createTextNode(String data);",
+		"contents": "XmlDocument.createTextNode(${1:String data});"
+	}, {
+		"trigger": "XmlDocument.createComment(String data);",
+		"contents": "XmlDocument.createComment(${1:String data});"
+	}, {
+		"trigger": "XmlDocument.createCDATASection(String data);",
+		"contents": "XmlDocument.createCDATASection(${1:String data});"
+	}, {
+		"trigger": "XmlDocument.createProcessingInstruction(String target, String data);",
+		"contents": "XmlDocument.createProcessingInstruction(${1:String target}, ${2:String data});"
+	}, {
+		"trigger": "XmlDocumentType"
+	}, {
+		"trigger": "XmlDocumentType.name"
+	}, {
+		"trigger": "XmlDocumentType.publicId"
+	}, {
+		"trigger": "XmlDocumentType.systemId"
+	}, {
+		"trigger": "XmlElement"
+	}, {
+		"trigger": "XmlElement.namespaceURI"
+	}, {
+		"trigger": "XmlElement.prefix"
+	}, {
+		"trigger": "XmlElement.localName"
+	}, {
+		"trigger": "XmlElement.tagName"
+	}, {
+		"trigger": "XmlElement.id"
+	}, {
+		"trigger": "XmlElement.textContent"
+	}, {
+		"trigger": "XmlElement.innerHTML"
+	}, {
+		"trigger": "XmlElement.className"
+	}, {
+		"trigger": "XmlElement.attributes"
+	}, {
+		"trigger": "XmlElement.getAttribute(String name);",
+		"contents": "XmlElement.getAttribute(${1:String name});"
+	}, {
+		"trigger": "XmlElement.getAttributeNS(String namespaceURI, String localName);",
+		"contents": "XmlElement.getAttributeNS(${1:String namespaceURI}, ${2:String localName});"
+	}, {
+		"trigger": "XmlElement.setAttribute(String name, String value);",
+		"contents": "XmlElement.setAttribute(${1:String name}, ${2:String value});"
+	}, {
+		"trigger": "XmlElement.setAttributeNS(String namespaceURI, String qualifiedName, String value);",
+		"contents": "XmlElement.setAttributeNS(${1:String namespaceURI}, ${2:String qualifiedName}, ${3:String value});"
+	}, {
+		"trigger": "XmlElement.removeAttribute(String name);",
+		"contents": "XmlElement.removeAttribute(${1:String name});"
+	}, {
+		"trigger": "XmlElement.removeAttributeNS(String namespaceURI, String localName);",
+		"contents": "XmlElement.removeAttributeNS(${1:String namespaceURI}, ${2:String localName});"
+	}, {
+		"trigger": "XmlElement.hasAttribute(String name);",
+		"contents": "XmlElement.hasAttribute(${1:String name});"
+	}, {
+		"trigger": "XmlElement.hasAttributeNS(String namespaceURI, String localName);",
+		"contents": "XmlElement.hasAttributeNS(${1:String namespaceURI}, ${2:String localName});"
+	}, {
+		"trigger": "XmlElement.getElementsByTagName(String tagName);",
+		"contents": "XmlElement.getElementsByTagName(${1:String tagName});"
+	}, {
+		"trigger": "XmlElement.getElementsByTagNameNS(String namespaceURI, String localName);",
+		"contents": "XmlElement.getElementsByTagNameNS(${1:String namespaceURI}, ${2:String localName});"
+	}, {
+		"trigger": "XmlNamedNodeMap"
+	}, {
+		"trigger": "XmlNamedNodeMap.length"
+	}, {
+		"trigger": "XmlNamedNodeMap.item(Integer index);",
+		"contents": "XmlNamedNodeMap.item(${1:Integer index});"
+	}, {
+		"trigger": "XmlNamedNodeMap.operator"
+	}, {
+		"trigger": "XmlNamedNodeMap.getNamedItem(String name);",
+		"contents": "XmlNamedNodeMap.getNamedItem(${1:String name});"
+	}, {
+		"trigger": "XmlNode"
+	}, {
+		"trigger": "XmlNode.nodeType"
+	}, {
+		"trigger": "XmlNode.nodeName"
+	}, {
+		"trigger": "XmlNode.nodeValue"
+	}, {
+		"trigger": "XmlNode.ownerDocument"
+	}, {
+		"trigger": "XmlNode.parentNode"
+	}, {
+		"trigger": "XmlNode.hasChildNodes();"
+	}, {
+		"trigger": "XmlNode.childNodes"
+	}, {
+		"trigger": "XmlNode.firstChild"
+	}, {
+		"trigger": "XmlNode.lastChild"
+	}, {
+		"trigger": "XmlNode.previousSibling"
+	}, {
+		"trigger": "XmlNode.nextSibling"
+	}, {
+		"trigger": "XmlNode.normalize();"
+	}, {
+		"trigger": "XmlNode.cloneNode(Boolean deep = true);",
+		"contents": "XmlNode.cloneNode(${1:Boolean deep = true});"
+	}, {
+		"trigger": "XmlNode.lookupPrefix(String namespaceURI);",
+		"contents": "XmlNode.lookupPrefix(${1:String namespaceURI});"
+	}, {
+		"trigger": "XmlNode.lookupNamespaceURI(String prefix);",
+		"contents": "XmlNode.lookupNamespaceURI(${1:String prefix});"
+	}, {
+		"trigger": "XmlNode.insertBefore(XmlNode newChild, XmlNode refChild);",
+		"contents": "XmlNode.insertBefore(${1:XmlNode newChild}, ${2:XmlNode refChild});"
+	}, {
+		"trigger": "XmlNode.insertAfter(XmlNode newChild, XmlNode refChild);",
+		"contents": "XmlNode.insertAfter(${1:XmlNode newChild}, ${2:XmlNode refChild});"
+	}, {
+		"trigger": "XmlNode.appendChild(XmlNode newChild);",
+		"contents": "XmlNode.appendChild(${1:XmlNode newChild});"
+	}, {
+		"trigger": "XmlNode.replaceChild(XmlNode newChild, XmlNode oldChild);",
+		"contents": "XmlNode.replaceChild(${1:XmlNode newChild}, ${2:XmlNode oldChild});"
+	}, {
+		"trigger": "XmlNode.removeChild(XmlNode oldChild);",
+		"contents": "XmlNode.removeChild(${1:XmlNode oldChild});"
+	}, {
+		"trigger": "XmlNodeList"
+	}, {
+		"trigger": "XmlNodeList.length"
+	}, {
+		"trigger": "XmlNodeList.item(Integer index);",
+		"contents": "XmlNodeList.item(${1:Integer index});"
+	}, {
+		"trigger": "XmlNodeList.operator"
+	}, {
+		"trigger": "XmlProcessingInstruction"
+	}, {
+		"trigger": "XmlProcessingInstruction.target"
+	}, {
+		"trigger": "XmlProcessingInstruction.data"
+	}, {
+		"trigger": "XmlText"
+	}, {
+		"trigger": "XmlText.splitText(Integer offset);",
+		"contents": "XmlText.splitText(${1:Integer offset});"
+	}, {
+		"trigger": "zlib"
+	}, {
+		"trigger": "zlib.NO_COMPRESSION"
+	}, {
+		"trigger": "zlib.BEST_SPEED"
+	}, {
+		"trigger": "zlib.BEST_COMPRESSION"
+	}, {
+		"trigger": "zlib.DEFAULT_COMPRESSION"
+	}, {
+		"trigger": "zlib.deflate(Buffer data, Integer level = DEFAULT_COMPRESSION);",
+		"contents": "zlib.deflate(${1:Buffer data}, ${2:Integer level = DEFAULT_COMPRESSION});"
+	}, {
+		"trigger": "zlib.deflateTo(Buffer data, Stream stm, Integer level = DEFAULT_COMPRESSION);",
+		"contents": "zlib.deflateTo(${1:Buffer data}, ${2:Stream stm}, ${3:Integer level = DEFAULT_COMPRESSION});"
+	}, {
+		"trigger": "zlib.deflateTo(Stream src, Stream stm, Integer level = DEFAULT_COMPRESSION);",
+		"contents": "zlib.deflateTo(${1:Stream src}, ${2:Stream stm}, ${3:Integer level = DEFAULT_COMPRESSION});"
+	}, {
+		"trigger": "zlib.inflate(Buffer data);",
+		"contents": "zlib.inflate(${1:Buffer data});"
+	}, {
+		"trigger": "zlib.inflateTo(Buffer data, Stream stm);",
+		"contents": "zlib.inflateTo(${1:Buffer data}, ${2:Stream stm});"
+	}, {
+		"trigger": "zlib.inflateTo(Stream src, Stream stm);",
+		"contents": "zlib.inflateTo(${1:Stream src}, ${2:Stream stm});"
+	}, {
+		"trigger": "zlib.gzip(Buffer data);",
+		"contents": "zlib.gzip(${1:Buffer data});"
+	}, {
+		"trigger": "zlib.gzipTo(Buffer data, Stream stm);",
+		"contents": "zlib.gzipTo(${1:Buffer data}, ${2:Stream stm});"
+	}, {
+		"trigger": "zlib.gzipTo(Stream src, Stream stm);",
+		"contents": "zlib.gzipTo(${1:Stream src}, ${2:Stream stm});"
+	}, {
+		"trigger": "zlib.gunzip(Buffer data);",
+		"contents": "zlib.gunzip(${1:Buffer data});"
+	}, {
+		"trigger": "zlib.gunzipTo(Buffer data, Stream stm);",
+		"contents": "zlib.gunzipTo(${1:Buffer data}, ${2:Stream stm});"
+	}, {
+		"trigger": "zlib.gunzipTo(Stream src, Stream stm);",
+		"contents": "zlib.gunzipTo(${1:Stream src}, ${2:Stream stm});"
+	}, {
+		"trigger": "require(\"\")",
+		"contents": "require(${1:\"\"})"
+	}]
+}
