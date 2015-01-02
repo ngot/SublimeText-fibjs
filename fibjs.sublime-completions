@@ -2450,6 +2450,8 @@
 		"trigger": "SandBox.remove(String id);",
 		"contents": "SandBox.remove(${1:String id});"
 	}, {
+		"trigger": "SandBox.clone();"
+	}, {
 		"trigger": "SandBox.run(String fname);",
 		"contents": "SandBox.run(${1:String fname});"
 	}, {
