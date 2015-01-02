@@ -20,11 +20,11 @@ Sublime Text 2
 
 *MacOSX*
 
-    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package -O ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages/fibjs.sublime-package`
+    `git clone git://github.com/ngot/SublimeText-fibjs.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/fibjs`
 
 *Windows*
 
-    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package "%APPDATA%\Sublime Text 2\Installed Packages\fibjs.sublime-package`
+    `git clone git://github.com/ngot/SublimeText-fibjs.git "%APPDATA%\Sublime Text 2\Packages\fibjs`
 
 
 Sublime Text 3
@@ -32,11 +32,11 @@ Sublime Text 3
 
 *MacOSX*
 
-    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package -O ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/fibjs.sublime-package`
+    `git clone git://github.com/ngot/SublimeText-fibjs.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/fibjs`
 
 *Windows*
 
-    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package "%APPDATA%\Sublime Text 3\Installed Packages\fibjs.sublime-package`
+    `git clone git://github.com/ngot/SublimeText-fibjs.git "%APPDATA%\Sublime Text 3\Packages\fibjs`
 
 
 Author & Contributors
