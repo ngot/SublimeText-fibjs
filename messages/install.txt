@@ -1,0 +1,17 @@
+Thank you for installing fibjs!
+
+
+Overview
+--------
+The fibjs Sublime Text 2/3 Package provides code completion for [fibjs](http://fibjs.org).
+
+Code Completion
+---------------
+The package code completion is generated from the main fibjs libraries and global namespaces. To invoke
+the code completion start typing the namespace you want
+
+
+Author
+------
+Created by ngot [http://www.weibo.com/u/1751144103].
+For more info, you can send email to me: ngot@ngot.me!
