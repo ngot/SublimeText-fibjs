@@ -1,9 +1,9 @@
-fibjs Sublime Text 2 Package
+fibjs Sublime Text 2/3 Package
 =============================
 
 Overview
 --------
-The fibjs Sublime Text 2 Package provides code completion for [fibjs](http://fibjs.org).
+The fibjs Sublime Text 2/3 Package provides code completion for [fibjs](http://fibjs.org).
 
 Code Completion
 ---------------
@@ -15,13 +15,28 @@ the code completion start typing the namespace you want (For example, type `util
 Install
 -------
 
+Sublime Text 2
+----
+
 *MacOSX*
 
-    `git clone git://github.com/ngot/SublimeText-fibjs.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/fibjs`
+    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package -O ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages/fibjs.sublime-package`
 
 *Windows*
 
-    `git clone git://github.com/ngot/SublimeText-fibjs.git "%APPDATA%\Sublime Text 2\Packages\fibjs"`
+    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package "%APPDATA%\Sublime Text 2\Installed Packages\fibjs.sublime-package`
+
+
+Sublime Text 3
+----
+
+*MacOSX*
+
+    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package -O ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/fibjs.sublime-package`
+
+*Windows*
+
+    `wget https://github.com/ngot/SublimeText-fibjs/blob/master/fibjs.sublime-package "%APPDATA%\Sublime Text 3\Installed Packages\fibjs.sublime-package`
 
 
 Author & Contributors
